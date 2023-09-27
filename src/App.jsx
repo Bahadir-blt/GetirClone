@@ -23,7 +23,7 @@ function App() {
       <Favorite/>
       <MobileApp/>
       <Cart/>
-      <Footer/>
+      <Footer/> 
     </>
   )
 }
