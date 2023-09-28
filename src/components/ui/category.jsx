@@ -1,8 +1,10 @@
+
+
 export  default function Category ({category: {id,title,image,}}){
     return (
-        <a href="#">
-          <img src = {image} alt={title} />
-          <span>{title}</span>
+        <a href="#" className="imageHref">
+          <img className="categoriesImage" src = {image} alt={title} />
+          <span className="categoriesTitle"> {title}</span>
         </a>
           
         

@@ -7,10 +7,40 @@ padding: 16px 0;
 }
 .categoriesText{
     font-weight: 600;
-    font-size: 14px;
+    font-size: 19px;
     margin-bottom: 10px;
 }
 .categoriesItem{
     display: grid;
     grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+.imageHref{
+    display: inline-flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 108.8px;
+    border-radius: 4px;
+    transition: 0.2s ease 0s;
+    overflow: visible;
+    text-decoration: none;
+    gap: 10px;
+}
+.categoriesImage{
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid rgba(25, 25, 25, 0.1);  
+}
+.categoriesTitle{ 
+   font-size: 15px;
+}
+.imageHref:hover{
+    background-color: #dbdbff;
+  color: #5d3ebc;
+  transition: 0.2s ease 0s;
+  letter-spacing: 0.1rem;
 }
