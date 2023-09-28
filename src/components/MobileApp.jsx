@@ -27,7 +27,7 @@ const MobileApp = () => {
 
 
 
-          {/* <img src="src\image\Mobile Image.png" alt="" /> */}
+         
         </div>
 
 
