@@ -19,8 +19,6 @@ function App() {
       <HeroSection/>
       <Categories/>
       <MobileApp/>
- 
-      
       <Cart/>
       <Footer/> 
     </>
