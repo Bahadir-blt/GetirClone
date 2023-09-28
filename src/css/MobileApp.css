@@ -1,0 +1,9 @@
+.mobileApp{
+   display: flex;
+    margin: auto 100px;
+    background-color: #5d3ebc;
+    border-radius: 18px;
+    height: 312px;  
+    cursor: pointer;
+}
+

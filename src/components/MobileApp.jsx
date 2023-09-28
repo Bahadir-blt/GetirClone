@@ -3,11 +3,20 @@ import '../css/MobileApp.css'
 
 
 
- const MobileApp = () => {
+const MobileApp = () => {
   return (
-    <div>MobileApp</div>
+    <>
+      <div className='mobileApp'>
+          <img src="src\image\Mobile Image.png" alt="" />
+        </div>
+
+
+
+
+
+    </>
   )
 }
 
 
-export default MobileApp ;
+export default MobileApp;
