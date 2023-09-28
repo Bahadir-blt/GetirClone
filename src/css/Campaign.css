@@ -1,0 +1,12 @@
+.Campaign{
+    padding: 10px 50px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.bannerImage{
+    display: block;
+    padding: 8px;
+    border-radius: 15px;
+}
