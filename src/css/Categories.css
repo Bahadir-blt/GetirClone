@@ -1,0 +1,16 @@
+.categories{
+background-color:#fff ;
+padding: 16px 0;
+}
+.categoriesHeader{ 
+    margin: auto 100px ;
+}
+.categoriesText{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.categoriesItem{
+    display: grid;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+}
