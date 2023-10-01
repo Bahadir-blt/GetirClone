@@ -17,9 +17,9 @@ import cartData  from '../api/cart.json'
     <div className='cart'>
       {cart.length && cart.map(cart => (
         <div className='cartDetail'>
-          <img src= {cart.image} />
-          <h5>{cart.title}</h5>
-          <p> {cart.description} </p>
+          <img className='dataImage' src= {cart.image} />
+          <h3 className='dataTitle'>{cart.title}</h3>
+          <p className='dataDescription'> {cart.description} </p>
         </div>
       ))}
     </div>
