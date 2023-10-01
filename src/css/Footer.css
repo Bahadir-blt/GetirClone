@@ -1,0 +1,29 @@
+.footer{
+    background-color: #fff;
+    margin-top: 10px;
+}
+.footerDesc{
+    width: 100%;
+    margin: 0  auto;
+
+}
+.footerComment{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.downloadGetirApplication{
+    color: #5d3ebc;
+    margin-left: 100px;
+    margin-bottom: 16px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size:20px;
+    line-height: 26px;
+}
+.downloadGetirApplicationIcon{
+    display: grid;
+    row-gap:16px ;
+    margin-left: 100px;
+    width: 130px;
+}
