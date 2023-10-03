@@ -1,7 +1,7 @@
 .footer{
     background-color: #fff;
     margin-top: 10px;
-
+    box-shadow: 0 5px 6px 0  rgb(168, 168, 168);
 }
 .footerDesc{
     width: 100%;
@@ -16,6 +16,7 @@
 .downloadGetirApplication{
     color: #5d3ebc;
     margin-left: 100px;
+    margin-right: 50px;
     margin-bottom: 16px;
     margin-top: 50px;
     font-weight: 400;
@@ -27,9 +28,9 @@
     row-gap:16px ;
     margin-left: 100px;
     width: 130px;
+    height: 90px;
 }
 .footerFirstStatemenet{
-   
     align-items: center;
     margin-left: 100px;
     margin-bottom: 25px;
