@@ -5,11 +5,12 @@ import '../css/Footer.css'
 
 const Footer = () => {
   return (
+    <>
     <div className='footer'>
       <div className='footerDesc'>
        <div className='footerComment'>
   <section>
-    <h6 className='downloadGetirApplication'>Getir'i indirin!</h6>
+    <h6 className='downloadGetirApplication'>Getirdim'i indirin!</h6>
     <nav className='downloadGetirApplicationIcon'>
       <a href="#">
         <img src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg" alt="" />
@@ -22,9 +23,44 @@ const Footer = () => {
       </a>
     </nav>
   </section>
+  <section>
+      <h6 className='downloadGetirApplication'>Getirdim'i Keşfedin</h6>
+      <nav className='footerFirstStatemenet' >
+       <a href="#"><p2 className="statment">Hakkımızda</p2><br /></a> 
+       <a href="#"><p2 className="statment">Kariyer</p2><br /></a> 
+       <a href="#"><p2 className="statment">Teknoloji Kariyerleri</p2><br />  </a> 
+       <a href="#"> <p2 className="statment">İletişim</p2><br /></a>
+       <a href="#"><p2 className="statment">Sosyal Sorumluluk Projeleri</p2></a> 
+      </nav>
+      </section>
+      <section>
+      <h6 className='downloadGetirApplication'>Size Nasıl Yardımcı Olabilirim?</h6>
+      <nav className='footerFirstStatemenet' >
+       <a href="#"><p2 className="statment">Sıkça Sorulan Sorular</p2><br /></a> 
+       <a href="#"><p2 className="statment">Kişisel Verilerin Korunması</p2><br /></a> 
+       <a href="#"><p2 className="statment">Gizlilik Politikası</p2><br />  </a> 
+       <a href="#"> <p2 className="statment">Kullanım Koşulları</p2><br /></a>
+       <a href="#"><p2 className="statment">Çerez Politikası</p2></a> <br />
+       <a href="#"><p2 className="statment">İşlem Rehberi</p2></a> 
+      </nav>
+      </section>
+      <section>
+      <h6 className='downloadGetirApplication'>Size Nasıl Yardımcı Olabilirim?</h6>
+      <nav className='footerFirstStatemenet' >
+       <a href="#"><p2 className="statment">Sıkça Sorulan Sorular</p2><br /></a> 
+       <a href="#"><p2 className="statment">Kişisel Verilerin Korunması</p2><br /></a> 
+       <a href="#"><p2 className="statment">Gizlilik Politikası</p2><br />  </a> 
+       <a href="#"> <p2 className="statment">Kullanım Koşulları</p2><br /></a>
+       <a href="#"><p2 className="statment">Çerez Politikası</p2></a> <br />
+       <a href="#"><p2 className="statment">İşlem Rehberi</p2></a> 
+      </nav>
+      </section>
   </div>
       </div>
     </div>
+    <hr />
+    <h1>deneme</h1>
+    </>
   )
 }
 

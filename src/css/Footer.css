@@ -1,6 +1,7 @@
 .footer{
     background-color: #fff;
     margin-top: 10px;
+
 }
 .footerDesc{
     width: 100%;
@@ -26,4 +27,17 @@
     row-gap:16px ;
     margin-left: 100px;
     width: 130px;
+}
+.footerFirstStatemenet{
+   
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+.statment{
+    display: flex; 
+}
+.footerFirstStatemenet a {
+    text-decoration: none;
+    color: #191919;
 }
