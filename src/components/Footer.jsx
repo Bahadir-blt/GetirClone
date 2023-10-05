@@ -1,7 +1,6 @@
 import React from 'react'
 import '../css/Footer.css'
-
-
+import { FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -9,6 +8,7 @@ const Footer = () => {
       <div className='footer'>
         <div className='footerDesc'>
           <div className='footerComment'>
+
             <section>
               <h6 className='downloadGetirApplication'>Getirdim'i indirin!</h6>
               <nav className='downloadGetirApplicationIcon'>
@@ -23,6 +23,7 @@ const Footer = () => {
                 </a>
               </nav>
             </section>
+
             <section>
               <h6 className='downloadGetirApplication'>Getirdim'i Keşfedin</h6>
               <nav className='footerFirstStatemenet' >
@@ -33,6 +34,7 @@ const Footer = () => {
                 <a href="#"><p2 className="statment">Sosyal Sorumluluk Projeleri</p2></a>
               </nav>
             </section>
+
             <section>
               <h6 className='downloadGetirApplication'>Size Yardımcı Olalım?</h6>
               <nav className='footerFirstStatemenet' >
@@ -43,6 +45,7 @@ const Footer = () => {
                 <a href="#"><p2 className="statment">Çerez Politikası</p2></a> <br />
               </nav>
             </section>
+
             <section>
               <h6 className='downloadGetirApplication'>İş Ortağımız Olun</h6>
               <nav className='footerFirstStatemenet' >
@@ -53,11 +56,23 @@ const Footer = () => {
                 <a href="#"><p2 className="statment">İşlem Rehberi</p2></a>
               </nav>
             </section>
+
+
+            <div className="lowerFooter">
+              <p className='copyright'> <hr /> &copy; 2023  <span> ~ Bahadır Bulut
+                <br />
+                <a href="#"> **   Bilgi Toplumu Hizmetleri İçin Tıklayınız  🥰 </a>   </span></p>
+              <nav className='footerIcon'>
+                <a href="https://github.com/Bahadir-blt/" target='_blank'> <FaGithub /> </a>
+                <a href="https://twitter.com/bulutbahadirr"> <FaTwitter /> </a>
+                <a href="https://www.instagram.com/bahadir.bulutt/" target='_blank'> <FaInstagram /> </a>
+              </nav>
+            </div>
+
           </div>
         </div>
       </div>
 
-      <h1 className='lowerFooter'>deneme</h1>
     </>
   )
 }
