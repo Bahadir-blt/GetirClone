@@ -60,7 +60,7 @@
         align-items: center;
     }
     .imageHref:hover {
-        letter-spacing:normal
+        letter-spacing:normal;
     }
 }
 
@@ -72,7 +72,7 @@
         align-items: center;
     }
     .imageHref:hover {
-        letter-spacing:normal
+        letter-spacing:normal;
     }
 }
 @media screen and (max-width:900px) {
@@ -83,7 +83,7 @@
         align-items: center;
     }
     .imageHref:hover {
-        letter-spacing:normal
+        letter-spacing:normal;
     }
 }
 
@@ -95,7 +95,7 @@
         align-items: center;
     }
     .imageHref:hover {
-        letter-spacing:normal
+        letter-spacing:normal;
     }
 }
 
@@ -107,6 +107,6 @@
        align-items: center;
     }
     .imageHref:hover {
-        letter-spacing:normal
+        letter-spacing:normal;
     }
 }
