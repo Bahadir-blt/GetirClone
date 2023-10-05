@@ -15,13 +15,13 @@ import Category from './ui/category'
   return (
     <>
      <div className='categories'>
-    <div className='categoriesHeader'>
+     <div className='categoriesHeader'>
       <h3 className='categoriesText'>Kategoriler</h3>
       <div className='categoriesItem'>
-    {categories && categories.map((category,index) => <Category key = {index} category={category} />)}
+      {categories && categories.map((category,index) => <Category key = {index} category={category} />)}
 
       </div>
-    </div>
+     </div>
 
     </div>
     </>

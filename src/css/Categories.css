@@ -1,20 +1,24 @@
-.categories{
-background-color:#fff ;
-padding: 16px 0;
+.categories {
+    background-color: #fff;
+    padding: 16px 0;
 }
-.categoriesHeader{ 
-    margin: auto 100px ;
+
+.categoriesHeader {
+    margin: auto 100px;
 }
-.categoriesText{
+
+.categoriesText {
     font-weight: 600;
     font-size: 19px;
     margin-bottom: 10px;
 }
-.categoriesItem{
+
+.categoriesItem {
     display: grid;
     grid-template-columns: repeat(10, minmax(0, 1fr));
 }
-.imageHref{
+
+.imageHref {
     display: inline-flex;
     flex-direction: column;
     -webkit-box-align: center;
@@ -29,18 +33,80 @@ padding: 16px 0;
     text-decoration: none;
     gap: 10px;
 }
-.categoriesImage{
+
+.categoriesImage {
     width: 48px;
     height: 48px;
     border-radius: 8px;
-    border: 1px solid rgba(25, 25, 25, 0.1);  
+    border: 1px solid rgba(25, 25, 25, 0.1);
 }
-.categoriesTitle{ 
-   font-size: 15px;
+
+.categoriesTitle {
+    font-size: 15px;
 }
-.imageHref:hover{
+
+.imageHref:hover {
     background-color: #dbdbff;
-  color: #5d3ebc;
-  transition: 0.2s ease 0s;
-  letter-spacing: 0.1rem;
+    color: #5d3ebc;
+    transition: 0.2s ease 0s;
+    letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width: 1192px) {
+    .categoriesItem {
+        display: grid;
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+        text-align: center;
+        align-items: center;
+    }
+    .imageHref:hover {
+        letter-spacing:normal
+    }
+}
+
+@media screen and (max-width: 1046px) {
+    .categoriesItem {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        text-align: center;
+        align-items: center;
+    }
+    .imageHref:hover {
+        letter-spacing:normal
+    }
+}
+@media screen and (max-width:900px) {
+    .categoriesItem {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        text-align: center;
+        align-items: center;
+    }
+    .imageHref:hover {
+        letter-spacing:normal
+    }
+}
+
+@media screen and (max-width:700px) {
+    .categoriesItem {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        text-align: center;
+        align-items: center;
+    }
+    .imageHref:hover {
+        letter-spacing:normal
+    }
+}
+
+@media screen and (max-width:500px) {
+    .categoriesItem {
+        display: grid;
+       gap: 15px;
+       text-align: center;
+       align-items: center;
+    }
+    .imageHref:hover {
+        letter-spacing:normal
+    }
 }
