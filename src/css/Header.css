@@ -5,9 +5,11 @@
     background-color: #5c3cbb;
     height: 45px;
 }
+
 .Header .getirWrite {
     margin: 10px 100px;
 }
+
 .RightBar {
     display: flex;
     align-items: center;
@@ -15,17 +17,47 @@
     margin-bottom: 50px;
     margin-right: 60px;
 }
+
 .RightBar a {
     gap: 5px;
     display: flex;
     align-items: center;
     color: rgb(219, 219, 255);
     margin-top: 15px;
-    margin-right: 30px; 
+    margin-right: 30px;
     text-decoration: none;
     opacity: 1;
 }
+
 .RightBar a:hover {
     opacity: 0.75;
     transition: 0.5ms;
+}
+
+@media screen and (max-width:684px) {
+    .Header {
+        height: 100px;
+    }
+    .RightBar {
+        display: none;
+    }
+    .Header .getirWrite img {
+        margin: 25px 200px;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width:525px) {
+    .Header {
+        height: 100px;
+    }
+
+    .Header .getirWrite img {
+        align-items: center;
+        margin: 25px 150px;
+    }
+
+    .RightBar {
+        display: none;
+    }
 }
