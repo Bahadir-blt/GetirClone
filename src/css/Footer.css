@@ -1,44 +1,86 @@
-.footer{
+.footer {
     background-color: #fff;
     margin-top: 10px;
-    box-shadow: 0 5px 6px 0  rgb(168, 168, 168);
 }
-.footerDesc{
-    width: 100%;
-    margin: 0  auto;
 
+.footerDesc {
+    width: 100%;
+    margin: 0 auto;
 }
-.footerComment{
+
+.footerComment {
     padding-top: 40px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.downloadGetirApplication{
+
+.downloadGetirApplication {
     color: #5d3ebc;
     margin-left: 100px;
     margin-right: 50px;
     margin-bottom: 16px;
     margin-top: 50px;
     font-weight: 400;
-    font-size:20px;
+    font-size: 20px;
     line-height: 26px;
 }
-.downloadGetirApplicationIcon{
+
+.downloadGetirApplicationIcon {
     display: grid;
-    row-gap:16px ;
+    row-gap: 16px;
     margin-left: 100px;
     width: 130px;
     height: 90px;
 }
-.footerFirstStatemenet{
+
+.footerFirstStatemenet {
     align-items: center;
     margin-left: 100px;
     margin-bottom: 25px;
 }
-.statment{
-    display: flex; 
+
+.statment {
+    display: flex;
 }
+
 .footerFirstStatemenet a {
     text-decoration: none;
     color: #191919;
+}
+
+.lowerFooter {
+    display: flex;
+    justify-content: space-between;
+    width: 340%;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    gap: 12px;
+}
+
+.copyright a {
+    gap: 15px;
+    color: #5d3ebc;
+    text-decoration: none;
+}
+
+.copyright span {
+    font-weight: 900;
+}
+
+.footerIcon {
+    display: flex;
+    gap: 4px;
+}
+
+.footerIcon a {
+    box-shadow: 0px 5px 6px 0px gainsboro;
+    padding: 14px;
+    color: rgb(58, 58, 58);
+    font-size: 20px;
+}
+
+.footerIcon a:hover {
+    color: #5d3ebc;
+    transition: all 0.3s;
 }
