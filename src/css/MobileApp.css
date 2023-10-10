@@ -1,36 +1,39 @@
-.mobileApp{
-  background-image: url(https://cdn.getir.com/getirweb-images/common/illustration/doodle.png);
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-  background-color:#5d3ebc;
-  border-radius: 8px;
-  z-index: 1;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  min-height: 312px;
-  width: 1300px;
-  height: 40px;
-  margin-left: 100px;
+.mobileApp {
+    background-image: url(https://cdn.getir.com/getirweb-images/common/illustration/doodle.png);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #5d3ebc;
+    border-radius: 8px;
+    z-index: 1;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    min-height: 312px;
+    width: 1300px;
+    height: 40px;
+    margin-left: 100px;
 }
-.uploadApp{
+
+.uploadApp {
     margin-left: 25px;
     color: #f3f0fe;
     margin-left: 30px;
     font-weight: 900;
 }
+
 .uploadApp span {
- font-size: small;
- font-weight: 400;
+    font-size: small;
+    font-weight: 400;
 }
 
-.download  {
-   display: flex;
+.download {
+    display: flex;
     margin-top: 20px;
     width: 120px;
 }
+
 .rightİmage {
     display: flex;
     margin-left: 450px;
@@ -38,3 +41,28 @@
 
 }
 
+
+@media screen and (max-width:505px) {
+    .mobileApp {
+        width: 330px;
+        height: auto;
+        
+    }
+    .uploadApp{
+   text-align: center;
+    }
+     .uploadApp span {
+       display: block;
+       padding-top: 20px;
+    }
+
+    .rightİmage {
+        display: none;
+    }
+    .download{
+       margin-left: 75px;
+      
+    }
+
+
+}

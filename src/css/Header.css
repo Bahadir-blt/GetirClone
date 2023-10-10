@@ -47,14 +47,14 @@
     }
 }
 
-@media screen and (max-width:525px) {
+@media screen and (max-width:505px) {
     .Header {
         height: 100px;
     }
 
     .Header .getirWrite img {
-        align-items: center;
-        margin: 25px 150px;
+        text-align: center;
+       margin-left: 40%;
     }
 
     .RightBar {
