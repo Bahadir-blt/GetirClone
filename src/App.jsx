@@ -15,12 +15,12 @@ function App() {
 
   return (
     <>
-      <Header />
+
       <HeroSection/>
       <Categories/>
       <MobileApp/>
       <Cart/>
-      <Footer/> 
+  
     </>
   )
 }
