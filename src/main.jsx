@@ -15,9 +15,10 @@ const router = createBrowserRouter (
       element : <MainLayout/>, children : [
         {
           index : true , element : <App/> 
+
         },
         {
-          path : '/Page',
+          path : '/Kategoriler',
           element : <Page/>
         }
       ]
