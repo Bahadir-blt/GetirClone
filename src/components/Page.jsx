@@ -1,14 +1,16 @@
 import React from 'react'
 import '../css/Page.css'
 
+import Water from '../ProductItem/Water.jsx'
 
 export default function Page() {
     return (
         <>
         {/*     Kategoriler Barinin Baslangici */ }
-
+<div className="pageContainer">
             <div className="leftBar">
                 <p className='PageCategories'> Kategoriler </p>
+                
                 <ul >
                     <li><img src="src/image/Page Image/Yeni Ürünler.jpeg"  alt="Yeni Ürünler"/>    <a href="#">Yeni Ürünler</a></li>
                     <li><img src="src/image/Page Image/İndirimler.jpeg"    alt="İndirimler"/>      <a href="#">İndirimler</a></li>
@@ -29,9 +31,19 @@ export default function Page() {
                     <li><img src="src/image/Page Image/Bebek.jpeg"         alt="Bebek"/>           <a href="#">Bebek</a></li>
                     <li><img src="src/image/Page Image/Cinsel Sağlık.jpeg" alt="Cinsel Sağlık"/>   <a href="#">Cinsel Sağlık</a></li>
                     <li><img src="src/image/Page Image/Giyim.jpeg"         alt="Giyim"/>           <a href="#">Giyim</a></li>
+                </ul> 
+              
+              
+            </div>
+            <div className="pageItems">
+                <ul>
+                    <li>
+                        <p><Water/></p></li>
                 </ul>
             </div>
+            </div>
             {/*  Kategoriler Barinin Bitisi */ }
+        
         </>
     )
 }
