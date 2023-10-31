@@ -1,9 +1,10 @@
 /* Kategoriler Barinin Baslangici */
-.pageContainer{
+.pageContainer {
     display: flex;
 }
+
 .PageCategories {
-  
+
     font-weight: 600;
     font-size: 20px;
     margin-left: 50px;
@@ -11,7 +12,7 @@
 }
 
 .leftBar ul li a {
- 
+
     font-size: 18px;
     margin-left: 30px;
     text-decoration: none;
@@ -45,44 +46,46 @@
 /*  Kategoriler Barinin Bitisi */
 
 .pageItems ul li {
-     margin-left: 50px;
+    margin-left: 50px;
     margin-top: 35px;
     list-style: none;
 }
 
-.water {
+
+.data {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
     margin-top: 90px;
     margin-left: -52px;
-    width: 100%;
-
+    width: 700px;
 }
 
-.water  .pageImage{
+.data .pageImage {
     width: 150px;
-    height: 50px;
-    object-fit: cover;   
+    object-fit: cover;
 }
-.pageTitle{
+
+.pageTitle {
     text-align: center;
-    font-size: 17px;
+    font-size: 14px;
     padding-bottom: 4px;
 }
-.pageDesc{
+
+.pageDesc {
     color: gray;
     font-size: 15px;
     text-align: center;
- 
+
 }
-.pageButton{
-    margin-left: 130px;
-    font-size: 28px;
+
+.pageButton {
+    margin-left: 80px;
+    font-size: 30px;
     color: #5c3cbb;
     position: absolute;
     margin-top: -30px;
-   
+
     cursor: pointer;
     border-radius: 20%;
     border: 1px solid #838181;

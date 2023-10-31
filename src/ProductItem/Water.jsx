@@ -1,32 +1,14 @@
 import React from 'react'
 import '../css/Page.css'
 import { useState, useEffect } from 'react'
+import waterData from '../api/categoriespage/water.json'
 
 
-const waterData =  [
-    {
-        id: 1,
-        price: 66.99,
-        title: 'Kuzeyden Su ',
-        image: 'src/image/Page Image/WaterPage/kuzeydensu6.jpg',
-        description : " 12 X 330 ML "
-      },
-      {
-        id: 1,
-        price: 66.99,
-        title: 'Kuzeyden Su ',
-        image: 'src/image/Page Image/WaterPage/kuzeydensu6.jpg',
-        description : " 12 X 330 ML "
-      },
-      {
-        id: 1,
-        price: 66.99,
-        title: 'Kuzeyden Su ',
-        image: 'src/image/Page Image/WaterPage/kuzeydensu6.jpg',
-        description : " 12 X 330 ML "
-      },
-]
+
+
+
 const Water = () => {
+  
  
   const [water, Setwater] = useState([]);
     useEffect(() => {
@@ -37,8 +19,8 @@ const Water = () => {
   
     return (
       <>
-       
-       <div className='water'>
+       <div className="watercontainer">
+       <div className='data'>
       {water.length && water.map(water => (
         <div className='cartDetail'>
           <button className='pageButton'>+</button>
@@ -52,7 +34,7 @@ const Water = () => {
       ))}
       
     </div>
-       
+    </div>
       </>
     
     )

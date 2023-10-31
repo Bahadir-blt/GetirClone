@@ -2,6 +2,9 @@ import React from 'react'
 import '../css/Page.css'
 
 import Water from '../ProductItem/Water.jsx'
+import Fruits from '../ProductItem/Fruits'
+import { Link } from 'react-router-dom'
+import Owen from '../ProductItem/owen'
 
 export default function Page() {
     return (
@@ -12,7 +15,7 @@ export default function Page() {
                 <p className='PageCategories'> Kategoriler </p>
                 
                 <ul >
-                    <li><img src="src/image/Page Image/Yeni Ürünler.jpeg"  alt="Yeni Ürünler"/>    <a href="#">Yeni Ürünler</a></li>
+                    <li><Link to="/Kategoriler/Meyve Sebze"><img src="src/image/Page Image/Yeni Ürünler.jpeg"  alt="Yeni Ürünler"/>    <a href="#">Yeni Ürünler</a></Link></li>
                     <li><img src="src/image/Page Image/İndirimler.jpeg"    alt="İndirimler"/>      <a href="#">İndirimler</a></li>
                     <li><img src="src/image/Page Image/Su İçecek.jpeg"     alt="Su & İçecek"/>     <a href="#">Su & İçecek</a></li>
                     <li><img src="src/image/Page Image/Meyve Sebze.jpeg"   alt="Meyve & Sebze"/>   <a href="#">Meyve & Sebze</a></li>
@@ -38,9 +41,16 @@ export default function Page() {
             <div className="pageItems">
                 <ul>
                     <li>
-                        <p><Water/></p></li>
+                        <p>
+                        <Owen/>
+                        <Fruits/>
+                        <Water/>
+                        
+                        </p></li>
+                       
                 </ul>
             </div>
+          
             </div>
             {/*  Kategoriler Barinin Bitisi */ }
         
