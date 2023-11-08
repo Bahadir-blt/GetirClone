@@ -1,10 +1,8 @@
 import React from 'react'
 import '../css/Page.css'
+import { Link } from 'react-router-dom' 
 
-import Water from '../ProductItem/Water.jsx'
-import Fruits from '../ProductItem/Fruits'
-import { Link } from 'react-router-dom'
-import Owen from '../ProductItem/owen'
+import Personal from '../ProductItem/Personal'
 
 export default function Page() {
     return (
@@ -33,7 +31,7 @@ export default function Page() {
                     <li><img src="src/image/Page Image/Evcil Hayvan.jpeg"  alt="Evcil Hayvan"/>    <a href="#">Evcil Hayvan</a></li>
                     <li><img src="src/image/Page Image/Bebek.jpeg"         alt="Bebek"/>           <a href="#">Bebek</a></li>
                     <li><img src="src/image/Page Image/Cinsel Sağlık.jpeg" alt="Cinsel Sağlık"/>   <a href="#">Cinsel Sağlık</a></li>
-                    <li><img src="src/image/Page Image/Giyim.jpeg"         alt="Giyim"/>           <a href="#">Giyim</a></li>
+                   
                 </ul> 
               
               
@@ -42,11 +40,8 @@ export default function Page() {
                 <ul>
                     <li>
                         <p>
-                        <Owen/>
-                        <Fruits/>
-                        <Water/>
-                        
-                        </p></li>
+
+<Personal/>                     </p></li>
                        
                 </ul>
             </div>

@@ -1,0 +1,506 @@
+[
+    {
+        "id": 1,
+        "price": 165,
+        "title": "Sensodyne Promine Onarım",
+        "image": "src/image/Page Image/KişiselBakım/SensodynePromineOnarım-75ml-165.jpeg",
+        "description": "75 ml"
+    },
+    {
+        "id": 2,
+        "price": 60,
+        "title": "Signal White System",
+        "image": "src/image/Page Image/KişiselBakım/SignalWhiteSystem-75ml-60.jpg",
+        "description": "75 ml"
+    },
+    {
+        "id": 3,
+        "price": 164,
+        "title": "Signal White Now Gold",
+        "image": "src/image/Page Image/KişiselBakım/SignalWhiteNowGold-75ml-164.png",
+        "description": "75 ml"
+    },
+    {
+        "id": 4,
+        "price": 164,
+        "title": "Signal White Now Diş Macunu",
+        "image": "src/image/Page Image/KişiselBakım/SignalWhiteNowDişMacunu-75ml-164.png",
+        "description": "75 ml"
+    },
+    {
+        "id": 5,
+        "price": 164,
+        "title": "Signal Extra Fresh",
+        "image": "src/image/Page Image/KişiselBakım/SignalExtraFresh-75ml-164.png",
+        "description": "75 ml"
+    },
+    {
+        "id": 6,
+        "price": 102,
+        "title": "Signal Detox Aktif Kömür",
+        "image": "src/image/Page Image/KişiselBakım/SignalDetoxAktifKömür-75ml-102.jpeg",
+        "description": "75 ml"
+    },
+    {
+        "id": 7,
+        "price": 164,
+        "title": "Colgate Natural Zerdeçal",
+        "image": "src/image/Page Image/KişiselBakım/ColgateNaturalZerdeçal-75ml-164.jpeg",
+        "description": "75 ml"
+    },
+    {
+        "id": 8,
+        "price": 165,
+        "title": "Sensodyne Promine Onarım",
+        "image": "src/image/Page Image/KişiselBakım/SensodynePromineOnarım-75ml-165.jpeg",
+        "description": "75 ml"
+    },
+    {
+        "id": 9,
+        "price": 164,
+        "title": "Paradontax Tam Koruma",
+        "image": "src/image/Page Image/KişiselBakım/ParodantaxTamKoruma-75ml-164.jpeg",
+        "description": "75 ml"
+    },
+    {
+        "id": 10,
+        "price": 44,
+        "title": "Colgate Total Profesyonal",
+        "image": "src/image/Page Image/KişiselBakım/ColgateTotalProfesyonel-75ml-44.jpeg",
+        "description": "75 ml"
+    },
+    {
+        "id": 11,
+        "price": 23,
+        "title": "Colgate Üçlü Etki",
+        "image": "src/image/Page Image/KişiselBakım/ColgateÜçlüEtki-150ml-23.jpeg",
+        "description": "150 ml"
+    },
+    {
+        "id": 12,
+        "price": 180,
+        "title": "Sensodyne Onarım",
+        "image": "src/image/Page Image/KişiselBakım/SensodyneOnarım-2x75ml180.jpeg",
+        "description": "2 x 75 ml"
+    },
+    {
+        "id": 13,
+        "price": 197,
+        "title": "Colgate 360 Orta",
+        "image": "src/image/Page Image/KişiselBakım/DişFırçası/Colgate360Orta-1+1-197.jpeg",
+        "description": "1+1"
+    },
+    {
+        "id": 14,
+        "price": 51,
+        "title": "Colgate Slim Soft",
+        "image": "src/image/Page Image/KişiselBakım/DişFırçası/ColgateSlimSoft-Tekli-51.jpeg",
+        "description": "Tekli"
+    },
+    {
+        "id": 15,
+        "price": 89,
+        "title": "Colgate Çocuk Diş Fırçası",
+        "image": "src/image/Page Image/KişiselBakım/DişFırçası/ColgateÇocukDişFırçası-89.jpg",
+        "description": "Tekli"
+    },
+    {
+        "id": 16,
+        "price": 57,
+        "title": "Colgate Zig Zag Orta",
+        "image": "src/image/Page Image/KişiselBakım/DişFırçası/ColgateZigZagOrta-1+1-57.jpg",
+        "description": "1+1"
+    },
+    {
+        "id": 17,
+        "price": 66,
+        "title": "Signal Performans Orta",
+        "image": "src/image/Page Image/KişiselBakım/DişFırçası/SignalPerformansOrta-Tekli-66.jpg",
+        "description": "Tekli"
+    },
+    {
+        "id": 18,
+        "price": 137,
+        "title": "Signal White Now Beyaz Dişler",
+        "image": "src/image/Page Image/KişiselBakım/DişFırçası/SignalWhiteNowBeyazDişler-1+1-137.jpg",
+        "description": "1+1"
+    },
+    {
+        "id": 19,
+        "price": 87,
+        "title": "Sensodyne Yumuşak Diş Eti",
+        "image": "src/image/Page Image/KişiselBakım/DişFırçası/SensodyneYumuşakDişEti-tekli-87.jpeg",
+        "description": "Tekli"
+    },
+    {
+        "id": 20,
+        "price": 764,
+        "title": "Oral-B Şarjlı Diş Fırçası",
+        "image": "src/image/Page Image/KişiselBakım/DişFırçası/OralbŞarjlıDişFırçası-Tekli-764.jpeg",
+        "description": "Tekli"
+    },
+    {
+        "id": 21,
+        "price": 111,
+        "title": "Colgate Optik Beyaz",
+        "image": "src/image/Page Image/KişiselBakım/TemizleyiciSu/ColgateOptikBeyaz-500ml-111.jpeg",
+        "description": "500 ml"
+    },
+    {
+        "id": 22,
+        "price": 79,
+        "title": "Colgate Plax Nane Ferahlığı",
+        "image": "src/image/Page Image/KişiselBakım/TemizleyiciSu/ColgatePlaxNaneFerahlığı-250ml-79.jpeg",
+        "description": "250 ml"
+    },
+    {
+        "id": 23,
+        "price": 134,
+        "title": "Listerine Cool Mint",
+        "image": "src/image/Page Image/KişiselBakım/TemizleyiciSu/ListerineCoolMint-500ml-134.jpeg",
+        "description": "500 ml"
+    },
+    {
+        "id": 24,
+        "price": 140,
+        "title": "Listerine Total Care",
+        "image": "src/image/Page Image/KişiselBakım/TemizleyiciSu/ListerineTotalCare-500ml-140.jpeg",
+        "description": "500 ml"
+    },
+    {
+        "id": 25,
+        "price": 128,
+        "title": "Oral-B Diş İpi",
+        "image": "src/image/Page Image/KişiselBakım/Dişİpi/OralBDişİpi-25m-128.jpeg",
+        "description": "25 m"
+    },
+    {
+        "id": 26,
+        "price": 156,
+        "title": "Colgate Diş İpi",
+        "image": "src/image/Page Image/KişiselBakım/Dişİpi/ColgateDişİpi-50m-156.jpeg",
+        "description": "50 m"
+    },
+    {
+        "id": 27,
+        "price": 120,
+        "title": "Sensodyne Diş İpi",
+        "image": "src/image/Page Image/KişiselBakım/Dişİpi/SensodyneDişİpi-30m-120.jpeg",
+        "description": "30 m"
+    },
+    {
+        "id": 28,
+        "price": 37,
+        "title": "StopEver Kürdanlı Diş İpi",
+        "image": "src/image/Page Image/KişiselBakım/Dişİpi/StopEverKürdanlıDişİpi-50Adet-37.jpeg",
+        "description": "50 Adet"
+    },
+    {
+        "id": 29,
+        "price": 89,
+        "title": "Elidor Onarıcı Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/ElidorOnarıcıŞampuan-400ml-89.jpeg",
+        "description": "400 ml"
+    },
+    {
+        "id": 30,
+        "price": 89,
+        "title": "Elidor 2'si 1 Arada ", 
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/Elidor2si1Arada-400ml-89.jpg",
+        "description": "400 ml"
+    },
+    {
+        "id": 31,
+        "price": 130,
+        "title": "Elidor Şampuan ",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/ElidorŞampuan-500ml-130.jpg",
+        "description": "500 ml"
+    },
+    {
+        "id": 32,
+        "price": 59,
+        "title": "Elidor Argan Yağlı Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/ElidorArganYağıŞampuan-500ml-59.jpg",
+        "description": "500 ml"
+    },
+    {
+        "id": 33,
+        "price": 100,
+        "title": "Elidor Elektrik Önleyici",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/ElidorElektriklenmeÖnleyici-300ml-100.png",
+        "description": "300 ml"
+    },
+    {
+        "id": 34,
+        "price": 84,
+        "title": "Elidor Belirgin Bukleler",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/ElidorBelirginBukleler-265ml-84.jpg",
+        "description": "265 ml"
+    },
+    {
+        "id": 35,
+        "price": 89,
+        "title": "Elidor Bakım Kremi",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/ElidorBakımKremi-350ml-89.jpg",
+        "description": "350 ml"
+    },
+    {
+        "id": 36,
+        "price": 265,
+        "title": "Elidor 7/24 Bakım Kremi",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/Elidor724BakımKremi-265-120.jpg",
+        "description": "265 ml"
+    },
+    {
+        "id": 37,
+        "price": 110,
+        "title": "Yumoş Extra Lilyum",
+        "image": "src/image/Page Image/EvBakım/YumoşExtraLilyum-1440ml-110.jpeg",
+        "description": "1440 ml"
+    },
+    {
+        "id": 38,
+        "price": 89,
+        "title": "Vernel Max Lavanta",
+        "image": "src/image/Page Image/EvBakım/VernelMaxLavanta-1440ml-89.jpg",
+        "description": "1440 ml"
+    },
+    {
+        "id": 39,
+        "price": 89,
+        "title": "Vernel Gülün Büyüsü",
+        "image": "src/image/Page Image/EvBakım/VernelGülünBüyüsü-3l-89.jpeg",
+        "description": "3 L"
+    },
+    {
+        "id": 40,
+        "price": 143,
+        "title": "Omo Bebek Parfümsüz",
+        "image": "src/image/Page Image/EvBakım/OmoBebekParfümsüz-900ml-143.jpeg",
+        "description": "900 ml"
+    },
+    {
+        "id": 41,
+        "price": 286,
+        "title": "Dalin Yumuşatıcı",
+        "image": "src/image/Page Image/EvBakım/DalinYumuşatıcı-1.5L-286.jpeg",
+        "description": "1.5 L"
+    },
+    {
+        "id": 42,
+        "price": 78,
+        "title": "Porçöz Leke Çıkarıcı",
+        "image": "src/image/Page Image/EvBakım/PorçözLekeÇıkarıcıSprey-750ml-78.jpeg",
+        "description": "750 ml"
+    },
+    {
+        "id": 43,
+        "price": 19,
+        "title": "K2R Renk Koruyucu Mendil",
+        "image": "src/image/Page Image/EvBakım/K2RRenkKoruyucuMendil-10lu-19.jpeg",
+        "description": "10'lu"
+    },
+    {
+        "id": 44,
+        "price": 86,
+        "title": "Solo Bambu Kağıt Havlu",
+        "image": "src/image/Page Image/EvBakım/SoloBambuKağıtHavlu-6lı-86.png",
+        "description": "6'lı"
+    },
+    {
+        "id": 45,
+        "price": 165,
+        "title": "Solo Tuvalet Kağıdı",
+        "image": "src/image/Page Image/EvBakım/SoloTuvaletKağıdı-16lı-165.jpeg",
+        "description": "16'lı"
+    },
+    {
+        "id": 46,
+        "price": 60,
+        "title": "Selpak Tuvalet Kağıdı",
+        "image": "src/image/Page Image/EvBakım/SelpakTuvaletKağıdı-4lü-60.jpeg",
+        "description": "4'lü"
+    },
+    {
+        "id": 47,
+        "price": 156,
+        "title": "Maylo 3 Katlı Tuvalet Kağıdı",
+        "image": "src/image/Page Image/EvBakım/Maylo3KatlıTuvaletKağıdı-16lı-156.jpeg",
+        "description": ""
+    },
+    {
+        "id": 48,
+        "price": 27,
+        "title": "Sofia El ve Yüz Havlusu",
+        "image": "src/image/Page Image/EvBakım/SofiaElveYüzHavlusu-100lü-27.jpg",
+        "description": "100'lü"
+    },
+    {
+        "id": 49,
+        "price": 86,
+        "title": "Komili Yuvam Tuvalet Kağıdı",
+        "image": "src/image/Page Image/EvBakım/KomiliYuvamTuvaletKağıdı-16lı-86.jpeg",
+        "description": "16'lı"
+    },
+    {
+        "id": 50,
+        "price": 49,
+        "title": "Selpak Dev Rulo Kağıt Havlu",
+        "image": "src/image/Page Image/EvBakım/SelpakDevRuloKağıtHavlu-Tekli-49.jpeg",
+        "description": "Tekli"
+    },
+    {
+        "id": 51,
+        "price": 23,
+        "title": "Dalin Islak Mendil",
+        "image": "src/image/Page Image/EvBakım/DalinIslakMendil-3x15yaprak-23.jpeg",
+        "description": "3 x 15 Yaprak"
+    },
+    {
+        "id": 52,
+        "price": 24,
+        "title": "Baby Turco Lavanta Islak Mendil",
+        "image": "src/image/Page Image/EvBakım/BabyTurcoLavantaIslakMendil-70li-24.jpeg",
+        "description": "70'li"
+    },
+    {
+        "id": 53,
+        "price": 142,
+        "title": "Fairy Limon",
+        "image": "src/image/Page Image/EvBakım/FairyLimon-1500ml-142.jpeg",
+        "description": "1500ml"
+    },
+    {
+        "id": 54,
+        "price": 59,
+        "title": "Fairy Platinium Hijyen",
+        "image": "src/image/Page Image/EvBakım/FaıryPlatinumHijyen-500ml-59.jpeg",
+        "description": "500 ml"
+    },
+    {
+        "id": 55,
+        "price": 90,
+        "title": "Pril Losyon AloeVera",
+        "image": "src/image/Page Image/EvBakım/PrilLosyonAloeVera-1045ml-90.jpg",
+        "description": "1045 ml"
+    },
+    {
+        "id": 56,
+        "price": 315,
+        "title": "Finish Quantum Ultimate",
+        "image": "src/image/Page Image/EvBakım/FinishQuantumUltimate-40lı-315.jpg",
+        "description": "40'lı"
+    },
+    {
+        "id": 57,
+        "price": 370,
+        "title": "Finish UltimatePlus",
+        "image": "src/image/Page Image/EvBakım/FinishUltimatePlus-40lı-370.jpg",
+        "description": "40'lı"
+    },
+    {
+        "id": 58,
+        "price": 240,
+        "title": "Finish Quantum ",
+        "image": "src/image/Page Image/EvBakım/FinishQuantum-40lı-240.jpeg",
+        "description": "40'lı"
+    },
+    {
+        "id": 59,
+        "price": 165,
+        "title": "Fairy Platinum",
+        "image": "src/image/Page Image/EvBakım/FairyPlatinum-15li-165.jpeg",
+        "description": "15'li"
+    },
+    {
+        "id": 60,
+        "price": 259,
+        "title": "Fairy Platinum Plus",
+        "image": "src/image/Page Image/EvBakım/FairyPlatinumPlus-22li-259.jpeg",
+        "description": "22'li"
+    },
+    {
+        "id": 61,
+        "price": 122,
+        "title": "Pril Gold Tablet",
+        "image": "src/image/Page Image/EvBakım/PrilGoldTablet-30lu-122.jpeg",
+        "description": "30'lu"
+    },
+    {
+        "id": 62,
+        "price": 112,
+        "title": "Finish Parlatıcı",
+        "image": "src/image/Page Image/EvBakım/FinishParlatıcı-400ml-112.jpg",
+        "description": "400 ml"
+    },
+    {
+        "id": 63,
+        "price": 70,
+        "title": "Parex Klasik Sünger",
+        "image": "src/image/Page Image/EvBakım/ParexKlasikSünger-5li-70.jpeg",
+        "description": "5'li"
+    },
+    {
+        "id": 64,
+        "price": 315,
+        "title": "Finish Quantum Ultimate",
+        "image": "src/image/Page Image/EvBakım/FinishQuantumUltimate-40lı-315.jpg",
+        "description": "40'lı"
+    },
+    {
+        "id": 65,
+        "price": 42,
+        "title": "Okyanus Sıvı Sabun",
+        "image": "src/image/Page Image/EvBakım/OkyanusSıvıSabun-1.8l-42.jpeg",
+        "description": "1.8 L"
+    },
+    {
+        "id": 66,
+        "price": 93,
+        "title": "Lavanta Sıvı Sabun",
+        "image": "src/image/Page Image/EvBakım/LavantaSıvıSabun-300ml-93.jpeg",
+        "description": "300 ml"
+    },
+    {
+        "id": 67,
+        "price": 28,
+        "title": "Killi Sıvı Sabun",
+        "image": "src/image/Page Image/EvBakım/KilliSıvıSabun-300ml-28.jpeg",
+        "description": "300 ml"
+    },
+    {
+        "id": 68,
+        "price": 89,
+        "title": "Antibakteriyel Sıvı Sabun",
+        "image": "src/image/Page Image/EvBakım/AntibakteriyelSıvıSabun-89.jpeg",
+        "description": "700 ml"
+    },
+    {
+        "id": 69,
+        "price": 82,
+        "title": "Natural Olive Sabun",
+        "image": "src/image/Page Image/EvBakım/NaturalOliveSabun-4x150g-82.jpeg",
+        "description": "4 x 150 g"
+    },
+    {
+        "id": 70,
+        "price": 120,
+        "title": "Doğal Kalıp Sabun",
+        "image": "src/image/Page Image/EvBakım/DoğalKalıpSabun-4x150-120.jpeg",
+        "description": "4 x 150 g"
+    },
+    {
+        "id": 71,
+        "price": 99,
+        "title": "Glade İpeksi Vanilya",
+        "image": "src/image/Page Image/EvBakım/GladeİpeksiVanilya-300ml-99.jpg",
+        "description": "300 ml"
+    },
+    {
+        "id": 72,
+        "price": 99,
+        "title": "Glade Aşkın Büyüsü",
+        "image": "src/image/Page Image/EvBakım/GladeAşkınBüyüsü-300ml-99.jpg",
+        "description": "300 ml"
+    }
+]
