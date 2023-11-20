@@ -1,8 +1,7 @@
 import React from 'react'
 import '../css/Page.css'
-import { Link } from 'react-router-dom' 
-
-import Personal from '../ProductItem/Personal'
+import { Link, Outlet } from 'react-router-dom' 
+import Milk from '../ProductItem/milk'
 
 export default function Page() {
     return (
@@ -13,10 +12,9 @@ export default function Page() {
                 <p className='PageCategories'> Kategoriler </p>
                 
                 <ul >
-                    <li><Link to="/Kategoriler/Meyve Sebze"><img src="src/image/Page Image/Yeni Ürünler.jpeg"  alt="Yeni Ürünler"/>    <a href="#">Yeni Ürünler</a></Link></li>
-                    <li><img src="src/image/Page Image/İndirimler.jpeg"    alt="İndirimler"/>      <a href="#">İndirimler</a></li>
-                    <li><img src="src/image/Page Image/Su İçecek.jpeg"     alt="Su & İçecek"/>     <a href="#">Su & İçecek</a></li>
-                    <li><img src="src/image/Page Image/Meyve Sebze.jpeg"   alt="Meyve & Sebze"/>   <a href="#">Meyve & Sebze</a></li>
+      
+                    <li><Link to="/Su-İçecek"><img src="src/image/Page Image/Su İçecek.jpeg"     alt="Su & İçecek"/>     <a href="#">Su & İçecek</a></Link></li>
+                    <li><Link to="/Meyve-Sebze"><img src="src/image/Page Image/Meyve Sebze.jpeg"   alt="Meyve & Sebze"/>   <a href="#">Meyve & Sebze</a></Link></li>
                     <li><img src="src/image/Page Image/Fırından.jpeg"      alt="Fırından"/>        <a href="#">Fırından</a></li>
                     <li><img src="src/image/Page Image/Temel Gıda.jpeg"    alt="Temel Gıda"/>      <a href="#">Temel Gıda</a></li>
                     <li><img src="src/image/Page Image/Atıştırmalık.jpeg"  alt="Atıştırmalık"/>    <a href="#">Atıştırmalık</a></li>
@@ -41,11 +39,11 @@ export default function Page() {
                     <li>
                         <p>
 
-<Personal/>                     </p></li>
-                       
+         </p></li>
+<Milk/>
                 </ul>
             </div>
-          
+     
             </div>
             {/*  Kategoriler Barinin Bitisi */ }
         

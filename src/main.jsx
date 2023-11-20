@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
 import MainLayout from './layouts/index.jsx'
 import Page from './components/Page.jsx'
+import Water from './ProductItem/Water.jsx'
 import Fruits from './ProductItem/Fruits.jsx'
 
 
@@ -23,6 +24,16 @@ const router = createBrowserRouter (
           element : <Page/>,
          
         },
+        {
+          path : '/Su-İçecek',
+          element : <Water />
+         
+        },
+        {
+          path : '/Meyve-Sebze',
+          element : <Fruits/>         
+        },
+       
        
       ]
     }

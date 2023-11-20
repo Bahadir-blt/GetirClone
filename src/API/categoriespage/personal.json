@@ -253,254 +253,311 @@
     },
     {
         "id": 37,
-        "price": 110,
-        "title": "Yumoş Extra Lilyum",
-        "image": "src/image/Page Image/EvBakım/YumoşExtraLilyum-1440ml-110.jpeg",
-        "description": "1440 ml"
+        "price": 94,
+        "title": "Pantene Super Food Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/PanteneSuperfoodŞampuan-350ml-94.jpg",
+        "description": "350 ml"
     },
     {
         "id": 38,
-        "price": 89,
-        "title": "Vernel Max Lavanta",
-        "image": "src/image/Page Image/EvBakım/VernelMaxLavanta-1440ml-89.jpg",
-        "description": "1440 ml"
+        "price": 94,
+        "title": "Pantene Onarıcı Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/PanteneOnarıcıŞampuan-350ml-94.jpg",
+        "description": "350 ml"
     },
     {
         "id": 39,
-        "price": 89,
-        "title": "Vernel Gülün Büyüsü",
-        "image": "src/image/Page Image/EvBakım/VernelGülünBüyüsü-3l-89.jpeg",
-        "description": "3 L"
+        "price": 120,
+        "title": "Elseve Hydra Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/ElseveHydraŞampuan-390ml-120.jpg",
+        "description": "390 ml"
     },
     {
         "id": 40,
-        "price": 143,
-        "title": "Omo Bebek Parfümsüz",
-        "image": "src/image/Page Image/EvBakım/OmoBebekParfümsüz-900ml-143.jpeg",
-        "description": "900 ml"
+        "price": 250,
+        "title": "Elseve Mor Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/ElseveMorŞampuan-200ml-250.png",
+        "description": "200 ml"
     },
     {
         "id": 41,
-        "price": 286,
-        "title": "Dalin Yumuşatıcı",
-        "image": "src/image/Page Image/EvBakım/DalinYumuşatıcı-1.5L-286.jpeg",
-        "description": "1.5 L"
+        "price": 93,
+        "title": "Bioblas Isırganlı Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/BioblasIsırganlıŞampuan-360ml-93.jpg",
+        "description": "360 ml"
     },
     {
         "id": 42,
-        "price": 78,
-        "title": "Porçöz Leke Çıkarıcı",
-        "image": "src/image/Page Image/EvBakım/PorçözLekeÇıkarıcıSprey-750ml-78.jpeg",
-        "description": "750 ml"
+        "price": 93,
+        "title": "Bioblas Antistress Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/BioblasAntistressŞampuan-360ml-93.jpg",
+        "description": "360 ml"
     },
     {
         "id": 43,
-        "price": 19,
-        "title": "K2R Renk Koruyucu Mendil",
-        "image": "src/image/Page Image/EvBakım/K2RRenkKoruyucuMendil-10lu-19.jpeg",
-        "description": "10'lu"
+        "price": 93,
+        "title": "Bioblas Keratinli Şampuan ",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/Bioblas KeratinliŞampuan-360ml-93.jpg",
+        "description": "360 ml"
     },
     {
         "id": 44,
-        "price": 86,
-        "title": "Solo Bambu Kağıt Havlu",
-        "image": "src/image/Page Image/EvBakım/SoloBambuKağıtHavlu-6lı-86.png",
-        "description": "6'lı"
+        "price": 93,
+        "title": "Bioblas Sarımsaklı Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/BioblasSarımsaklıŞampuan-360ml-93.jpg",
+        "description": "360 ml"
     },
     {
         "id": 45,
-        "price": 165,
-        "title": "Solo Tuvalet Kağıdı",
-        "image": "src/image/Page Image/EvBakım/SoloTuvaletKağıdı-16lı-165.jpeg",
-        "description": "16'lı"
+        "price": 102,
+        "title": "Gliss Serum Deep Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/GlissSerumDeepŞampuan-500ml-102.jpg",
+        "description": "500 ml"
     },
     {
         "id": 46,
-        "price": 60,
-        "title": "Selpak Tuvalet Kağıdı",
-        "image": "src/image/Page Image/EvBakım/SelpakTuvaletKağıdı-4lü-60.jpeg",
-        "description": "4'lü"
+        "price": 100,
+        "title": "Gliss BioTech Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/GlissBioTechŞampuan-500ml-100.jpg",
+        "description": "500 ml"
     },
     {
         "id": 47,
-        "price": 156,
-        "title": "Maylo 3 Katlı Tuvalet Kağıdı",
-        "image": "src/image/Page Image/EvBakım/Maylo3KatlıTuvaletKağıdı-16lı-156.jpeg",
+        "price": 102,
+        "title": "Gliss İntense Şampuan ",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/GlissİntenseŞampuan-500ml-102.jpg",
         "description": ""
     },
     {
         "id": 48,
-        "price": 27,
-        "title": "Sofia El ve Yüz Havlusu",
-        "image": "src/image/Page Image/EvBakım/SofiaElveYüzHavlusu-100lü-27.jpg",
-        "description": "100'lü"
+        "price": 156,
+        "title": "Old Spice Şampuan ",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/OldSpiceŞampuan-400ml-156.jpg",
+        "description": "400 ml"
     },
     {
         "id": 49,
-        "price": 86,
-        "title": "Komili Yuvam Tuvalet Kağıdı",
-        "image": "src/image/Page Image/EvBakım/KomiliYuvamTuvaletKağıdı-16lı-86.jpeg",
-        "description": "16'lı"
+        "price": 101,
+        "title": "Clear Man Sport",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/ClearManCoolSport-350ml-101.jpg",
+        "description": "350 ml"
     },
     {
         "id": 50,
-        "price": 49,
-        "title": "Selpak Dev Rulo Kağıt Havlu",
-        "image": "src/image/Page Image/EvBakım/SelpakDevRuloKağıtHavlu-Tekli-49.jpeg",
-        "description": "Tekli"
+        "price": 101,
+        "title": "Clear Man Hızlı Stil",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/ClearManHızlıStil-350ml-101.jpg",
+        "description": "350 ml"
     },
     {
         "id": 51,
-        "price": 23,
-        "title": "Dalin Islak Mendil",
-        "image": "src/image/Page Image/EvBakım/DalinIslakMendil-3x15yaprak-23.jpeg",
-        "description": "3 x 15 Yaprak"
+        "price": 101,
+        "title": "Clear Man Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/ClearManŞampuan-350ml-101.jpg",
+        "description": "350 ml"
     },
     {
         "id": 52,
-        "price": 24,
-        "title": "Baby Turco Lavanta Islak Mendil",
-        "image": "src/image/Page Image/EvBakım/BabyTurcoLavantaIslakMendil-70li-24.jpeg",
-        "description": "70'li"
+        "price": 104,
+        "title": "Clear Man Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/ClearManŞampuan-350ml-104.jpg",
+        "description": "350 ml"
     },
     {
         "id": 53,
-        "price": 142,
-        "title": "Fairy Limon",
-        "image": "src/image/Page Image/EvBakım/FairyLimon-1500ml-142.jpeg",
-        "description": "1500ml"
+        "price": 106,
+        "title": "Dove Ultra Care Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/DoveUltraCareŞampuan-400ml-106.jpg",
+        "description": "400 ml"
     },
     {
         "id": 54,
-        "price": 59,
-        "title": "Fairy Platinium Hijyen",
-        "image": "src/image/Page Image/EvBakım/FaıryPlatinumHijyen-500ml-59.jpeg",
-        "description": "500 ml"
+        "price": 106,
+        "title": "Dove Avakado Özlü Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/DoveAvakadoÖzlüŞampuan-400ml-106.jpg",
+        "description": "400 ml"
     },
     {
         "id": 55,
-        "price": 90,
-        "title": "Pril Losyon AloeVera",
-        "image": "src/image/Page Image/EvBakım/PrilLosyonAloeVera-1045ml-90.jpg",
-        "description": "1045 ml"
+        "price": 137,
+        "title": "Dove Yoğun Onarıcı Şampuan",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/DoveYoğunOnarıcıŞampuan-600ml-137.jpg",
+        "description": "600 ml"
     },
     {
         "id": 56,
-        "price": 315,
-        "title": "Finish Quantum Ultimate",
-        "image": "src/image/Page Image/EvBakım/FinishQuantumUltimate-40lı-315.jpg",
-        "description": "40'lı"
+        "price": 163,
+        "title": "Dove Hair Threapy",
+        "image": "src/image/Page Image/KişiselBakım/Şampuan/DoveHairTherapy-350ml-163.jpg",
+        "description": "350 ml"
     },
     {
         "id": 57,
-        "price": 370,
-        "title": "Finish UltimatePlus",
-        "image": "src/image/Page Image/EvBakım/FinishUltimatePlus-40lı-370.jpg",
-        "description": "40'lı"
+        "price": 142,
+        "title": "Palmolive Badem Duş Jeli",
+        "image": "src/image/Page Image/KişiselBakım/DuşBanyo/PalmoliveBademDuşJeli-500ml-142.jpg",
+        "description": "500 ml"
     },
     {
         "id": 58,
-        "price": 240,
-        "title": "Finish Quantum ",
-        "image": "src/image/Page Image/EvBakım/FinishQuantum-40lı-240.jpeg",
-        "description": "40'lı"
+        "price": 182,
+        "title": "Palmolive Böğürtlen Duş Jeli",
+        "image": "src/image/Page Image/KişiselBakım/DuşBanyo/PalmoliveBöğürtlenDuşJeli-500ml-182.jpeg",
+        "description": "500 ml"
     },
     {
         "id": 59,
-        "price": 165,
-        "title": "Fairy Platinum",
-        "image": "src/image/Page Image/EvBakım/FairyPlatinum-15li-165.jpeg",
-        "description": "15'li"
+        "price": 182,
+        "title": "Palmolive Feel The Energy",
+        "image": "src/image/Page Image/KişiselBakım/DuşBanyo/PalmoliveFeelTheEnergy-500ml-182.png",
+        "description": "500 ml"
     },
     {
         "id": 60,
-        "price": 259,
-        "title": "Fairy Platinum Plus",
-        "image": "src/image/Page Image/EvBakım/FairyPlatinumPlus-22li-259.jpeg",
-        "description": "22'li"
+        "price": 60,
+        "title": "Palmolive Zeytin Özü",
+        "image": "src/image/Page Image/KişiselBakım/DuşBanyo/PalmoliveZeytinÖzü-500ml-60.jpg",
+        "description": "500 ml"
     },
     {
         "id": 61,
-        "price": 122,
-        "title": "Pril Gold Tablet",
-        "image": "src/image/Page Image/EvBakım/PrilGoldTablet-30lu-122.jpeg",
-        "description": "30'lu"
+        "price": 197,
+        "title": "Akdeniz Çileği Duş Jeli",
+        "image": "src/image/Page Image/KişiselBakım/DuşBanyo/AkdenizÇileğiDuşJeli2x400-197.jpeg",
+        "description": "2 x 400 ml"
     },
     {
         "id": 62,
-        "price": 112,
-        "title": "Finish Parlatıcı",
-        "image": "src/image/Page Image/EvBakım/FinishParlatıcı-400ml-112.jpg",
+        "price": 164,
+        "title": "Beyaz Şeftali Duş Jeli",
+        "image": "src/image/Page Image/KişiselBakım/DuşBanyo/BeyazŞeftaliDuşJeli-400ml-164.jpeg",
         "description": "400 ml"
     },
     {
         "id": 63,
-        "price": 70,
-        "title": "Parex Klasik Sünger",
-        "image": "src/image/Page Image/EvBakım/ParexKlasikSünger-5li-70.jpeg",
-        "description": "5'li"
+        "price": 154,
+        "title": "Gül Nemlendirici Duş Jeli",
+        "image": "src/image/Page Image/KişiselBakım/DuşBanyo/GülNemlendiriciDuşJeli.jpeg",
+        "description": "500 ml"
     },
     {
         "id": 64,
-        "price": 315,
-        "title": "Finish Quantum Ultimate",
-        "image": "src/image/Page Image/EvBakım/FinishQuantumUltimate-40lı-315.jpg",
-        "description": "40'lı"
+        "price": 80,
+        "title": "Vanilya Sütü Duş Jeli",
+        "image": "src/image/Page Image/KişiselBakım/DuşBanyo/VanilyaSütüDuşJeli-250ml-80.jpeg",
+        "description": "250 ml"
     },
     {
         "id": 65,
-        "price": 42,
-        "title": "Okyanus Sıvı Sabun",
-        "image": "src/image/Page Image/EvBakım/OkyanusSıvıSabun-1.8l-42.jpeg",
-        "description": "1.8 L"
+        "price": 38,
+        "title": "Balmy Banyo Lİfi",
+        "image": "src/image/Page Image/KişiselBakım/DuşBanyo/BalmyBanyoLifi-1adet-38.jpeg",
+        "description": "1 Adet"
     },
     {
         "id": 66,
-        "price": 93,
-        "title": "Lavanta Sıvı Sabun",
-        "image": "src/image/Page Image/EvBakım/LavantaSıvıSabun-300ml-93.jpeg",
-        "description": "300 ml"
+        "price": 68,
+        "title": "Zeytin Çiçeği Banyo Lifi",
+        "image": "src/image/Page Image/KişiselBakım/DuşBanyo/ZeytinÇiçeğiSabunluBanyoLifi-1adet-68.jpeg",
+        "description": "1 Adet"
     },
     {
         "id": 67,
-        "price": 28,
-        "title": "Killi Sıvı Sabun",
-        "image": "src/image/Page Image/EvBakım/KilliSıvıSabun-300ml-28.jpeg",
-        "description": "300 ml"
+        "price": 68,
+        "title": "Beyaz Sabunlu Banyo Lifi",
+        "image": "src/image/Page Image/KişiselBakım/DuşBanyo/BeyazSabunluBanyoLifi-1adet-68.jpeg",
+        "description": "1 Adet"
     },
     {
         "id": 68,
-        "price": 89,
-        "title": "Antibakteriyel Sıvı Sabun",
-        "image": "src/image/Page Image/EvBakım/AntibakteriyelSıvıSabun-89.jpeg",
-        "description": "700 ml"
+        "price": 18,
+        "title": "Lionesse Banyo Lifi",
+        "image": "src/image/Page Image/KişiselBakım/DuşBanyo/LionesseBanyoLifi-1adet-18.jpeg",
+        "description": "1 Adet"
     },
     {
         "id": 69,
-        "price": 82,
-        "title": "Natural Olive Sabun",
-        "image": "src/image/Page Image/EvBakım/NaturalOliveSabun-4x150g-82.jpeg",
-        "description": "4 x 150 g"
+        "price": 131,
+        "title": "Dove Avakado Sıvı Sabun",
+        "image": "src/image/Page Image/KişiselBakım/Sabun/DoveSıvıSabunAvakdo-450ml-131.jpg",
+        "description": "450 ml"
     },
     {
         "id": 70,
-        "price": 120,
-        "title": "Doğal Kalıp Sabun",
-        "image": "src/image/Page Image/EvBakım/DoğalKalıpSabun-4x150-120.jpeg",
-        "description": "4 x 150 g"
+        "price": 79,
+        "title": "Krem Sıvı Sabun",
+        "image": "src/image/Page Image/KişiselBakım/Sabun/KremSıvıSabun-300ml-79.jpg",
+        "description": "300 ml"
     },
     {
         "id": 71,
-        "price": 99,
-        "title": "Glade İpeksi Vanilya",
-        "image": "src/image/Page Image/EvBakım/GladeİpeksiVanilya-300ml-99.jpg",
+        "price": 50,
+        "title": "Antibakteriyel Sıvı Sabun",
+        "image": "src/image/Page Image/KişiselBakım/Sabun/AntibakteriyelSıvıSabun-300ml-50.jpeg",
         "description": "300 ml"
     },
     {
         "id": 72,
-        "price": 99,
-        "title": "Glade Aşkın Büyüsü",
-        "image": "src/image/Page Image/EvBakım/GladeAşkınBüyüsü-300ml-99.jpg",
+        "price": 93,
+        "title": "Sütlü Sıvı Sabun",
+        "image": "src/image/Page Image/KişiselBakım/Sabun/SütSıvıSabun-300ml93.jpeg",
         "description": "300 ml"
+    }
+    ,
+    {
+        "id": 73,
+        "price": 28,
+        "title": "Killi Sıvı Sabun",
+        "image": "src/image/Page Image/KişiselBakım/Sabun/KilliSıvıSabun-300ml-28.jpeg",
+        "description": "300 ml"
+    },
+    {
+        "id": 74,
+        "price": 35,
+        "title": "Duru Sıvı Sabun",
+        "image": "src/image/Page Image/KişiselBakım/Sabun/DuruSıvıSabun-500ml-35.jpg",
+        "description": "500 ml"
+    },
+    {
+        "id": 75,
+        "price": 56,
+        "title": "Vegan Sıvı Sabun",
+        "image": "src/image/Page Image/KişiselBakım/Sabun/VeganSıvıSabun-500ml56.jpg",
+        "description": "500 ml"
+    },
+    {
+        "id": 76,
+        "price": 61,
+        "title": "Lavanta Sıvı Sabun",
+        "image": "src/image/Page Image/KişiselBakım/Sabun/LavantaSıvıSabun-300ml-61.jpeg",
+        "description": "300 ml"
+    },
+    {
+        "id": 77,
+        "price": 82,
+        "title": "Natural Olive Sabun",
+        "image": "src/image/Page Image/KişiselBakım/Sabun/NaturalOliveSabun-4x150g-82.jpeg",
+        "description": "4 x 150 g"
+    },
+    {
+        "id": 78,
+        "price": 120,
+        "title": "Doğal Kalıp Sabun",
+        "image": "src/image/Page Image/KişiselBakım/Sabun/DoğalKalıpSabun-4x150g-120.jpeg",
+        "description": "4 x 150 g"
+    },
+    {
+        "id": 79,
+        "price": 82,
+        "title": "Duru Duş Sabunu",
+        "image": "src/image/Page Image/KişiselBakım/Sabun/DuruDuşSabunu-4x150g-82.jpeg",
+        "description": "4 x 150 g"
+    },
+    {
+        "id": 80,
+        "price": 77,
+        "title": "Duru Güzellik Sabunu",
+        "image": "src/image/Page Image/KişiselBakım/Sabun/DuruGüzellikSabunu-4x70g-77.jpeg",
+        "description": "4 x 70 g"
     }
 ]
