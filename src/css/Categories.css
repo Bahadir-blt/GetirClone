@@ -13,7 +13,7 @@
     margin-bottom: 10px;
 }
 
-.categoriesItem {
+.categoriesItem ul  {
     display: grid;
     grid-template-columns: repeat(10, minmax(0, 1fr));
 }
@@ -33,6 +33,12 @@
     text-decoration: none;
     gap: 10px;
 }
+.imageHref a {
+   
+    text-decoration: none;
+  
+}
+
 
 .categoriesImage {
     width: 48px;
