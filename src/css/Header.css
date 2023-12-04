@@ -5,11 +5,14 @@
     background-color: #5c3cbb;
     height: 45px;
 }
-
-.Header .getirWrite {
+.Header .getirWrite{
     margin: 10px 100px;
+    color: #ffd300;
+    list-style: none;
+    font-weight: 900;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 .RightBar {
     display: flex;
     align-items: center;
@@ -17,7 +20,6 @@
     margin-bottom: 50px;
     margin-right: 60px;
 }
-
 .RightBar a {
     gap: 5px;
     display: flex;

@@ -23,22 +23,24 @@
     transform: translateX(-50%);
     height: 100%;
     z-index: 20;
-
-
+}
+.leftText img {
+    width: 50%;
+    height: 50%;
 }
 
 .fastTime {
     display: block;
-    margin-top: 20px;
+    margin-top: 5px;
     font-size: 30px;
     margin-left: 20px;
     font-weight: 600;
-    color: #fff;
+    color:#ffffff;
 }
 
 .login {
     width: 400px;
-    margin-right: -1250px;
+    margin-right: -1330px;
     border-radius: 8px;
     background-color: #fafafa;
     opacity: 1;

@@ -11,13 +11,13 @@
     margin-top: 24px;
     margin-bottom: 24px;
     min-height: 312px;
-    width: 1300px;
+    width: 1320px;
     height: 40px;
     margin-left: 100px;
 }
 
 .uploadApp {
-    margin-left: 25px;
+
     color: #f3f0fe;
     margin-left: 30px;
     font-weight: 900;
@@ -29,13 +29,15 @@
 }
 
 .download {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    object-fit: contain;
     margin-top: 20px;
-    width: 120px;
+    width: 100px;
 }
 
 .rightİmage {
-    display: flex;
+    display: inline-flex;
     margin-left: 450px;
     margin-top: 15px;
 

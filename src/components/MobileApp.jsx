@@ -7,7 +7,7 @@ const MobileApp = () => {
   return (
     <>
       <div className='mobileApp'>
-        <h2 className='uploadApp'>Getir'i indirin!
+        <h2 className='uploadApp'>Ne İstersin'le   <br />
           <span>İstediğiniz ürünleri dakikalar içinde kapınıza  getirelim.</span>
           <a href="https://apps.apple.com/app/id995280265" target='_blank' >
             <img className='download' src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg" alt="" />
@@ -20,7 +20,7 @@ const MobileApp = () => {
           </a>
         </h2>
 
-        <img className='rightİmage' src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png" alt="" />
+        <img className='rightİmage' src="src\image\HeroSectionPhoto\MobileApp\phoneLanding.png" alt="" />
 
 
 

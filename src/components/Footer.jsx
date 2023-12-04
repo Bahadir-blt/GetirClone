@@ -10,7 +10,7 @@ const Footer = () => {
           <div className='footerComment'>
 
             <section>
-              <h6 className='downloadGetirApplication'>Getirdim'i indirin!</h6>
+              <h6 className='downloadGetirApplication'>Ne İstersin'i indirin!</h6>
               <nav className='downloadGetirApplicationIcon'>
                 <a href="#">
                   <img src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg" alt="" />
@@ -25,7 +25,7 @@ const Footer = () => {
             </section>
 
             <section>
-              <h6 className='downloadGetirApplication'>Getirdim'i Keşfedin</h6>
+              <h6 className='downloadGetirApplication'>Ne İstersin'i Keşfedin</h6>
               <nav className='footerFirstStatemenet' >
                 <a href="#"><p2 className="statment">Hakkımızda</p2><br /></a>
                 <a href="#"><p2 className="statment">Kariyer</p2><br /></a>

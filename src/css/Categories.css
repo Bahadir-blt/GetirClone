@@ -19,6 +19,7 @@
 }
 
 .imageHref {
+    cursor: pointer;
     display: inline-flex;
     flex-direction: column;
     -webkit-box-align: center;
