@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/Footer.css'
 import { FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -27,33 +28,39 @@ const Footer = () => {
             <section>
               <h6 className='downloadGetirApplication'>Ne İstersin'i Keşfedin</h6>
               <nav className='footerFirstStatemenet' >
-                <a href="#"><p2 className="statment">Hakkımızda</p2><br /></a>
-                <a href="#"><p2 className="statment">Kariyer</p2><br /></a>
-                <a href="#"><p2 className="statment">Teknoloji Kariyerleri</p2><br />  </a>
-                <a href="#"> <p2 className="statment">İletişim</p2><br /></a>
-                <a href="#"><p2 className="statment">Sosyal Sorumluluk Projeleri</p2></a>
+                <ul>
+                  <li ><Link to="/Hakkımızda"> <a href="#"><p2 className="statment">Hakkımızda</p2><br /></ a></Link></li>
+                  <li><Link to="/İletişim"> <a href="#"><p2 className="statment">İletişim</p2><br /></a></Link></li>
+                  <li><Link to="/Teknoloji Kariyerleri"> <a href="#"><p2 className="statment">Teknoloji Kariyerleri</p2><br />  </a></Link></li>
+
+                  <a href="#"><p2 className="statment">Sosyal Sorumluluk Projeleri</p2></a>
+                </ul>
               </nav>
             </section>
 
             <section>
               <h6 className='downloadGetirApplication'>Size Yardımcı Olalım?</h6>
               <nav className='footerFirstStatemenet' >
-                <a href="#"><p2 className="statment">Sıkça Sorulan Sorular</p2><br /></a>
-                <a href="#"><p2 className="statment">Kişisel Verilerin Korunması</p2><br /></a>
-                <a href="#"><p2 className="statment">Gizlilik Politikası</p2><br />  </a>
-                <a href="#"> <p2 className="statment">Kullanım Koşulları</p2><br /></a>
-                <a href="#"><p2 className="statment">Çerez Politikası</p2></a> <br />
+                <ul>
+                  <li> <a href="#"><p2 className="statment">Sıkça Sorulan Sorular</p2><br /></a></li>
+                  <a href="#"><p2 className="statment">Kişisel Verilerin Korunması</p2><br /></a>
+                  <a href="#"><p2 className="statment">Gizlilik Politikası</p2><br />  </a>
+                  <a href="#"> <p2 className="statment">Kullanım Koşulları</p2><br /></a>
+                  <a href="#"><p2 className="statment">Çerez Politikası</p2></a> <br />
+                </ul>
               </nav>
             </section>
 
             <section>
               <h6 className='downloadGetirApplication'>İş Ortağımız Olun</h6>
               <nav className='footerFirstStatemenet' >
-                <a href="#"><p2 className="statment">Bayimiz Olun</p2><br /></a>
-                <a href="#"><p2 className="statment">Deponuzu Kiralayın</p2><br /></a>
-                <a href="#"><p2 className="statment">Restorantımız Olun</p2><br />  </a>
-                <a href="#"> <p2 className="statment">Zincir Restoranlar</p2><br /></a>
-                <a href="#"><p2 className="statment">İşlem Rehberi</p2></a>
+                <ul>
+                  <li> <a href="#"><p2 className="statment">Bayimiz Olun</p2><br /></a></li>
+                  <a href="#"><p2 className="statment">Deponuzu Kiralayın</p2><br /></a>
+                  <a href="#"><p2 className="statment">Restorantımız Olun</p2><br />  </a>
+                  <a href="#"> <p2 className="statment">Zincir Restoranlar</p2><br /></a>
+                  <a href="#"><p2 className="statment">İşlem Rehberi</p2></a>
+                </ul>
               </nav>
             </section>
 

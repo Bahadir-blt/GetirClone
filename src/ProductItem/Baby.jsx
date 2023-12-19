@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/Page.css'
 import { useState, useEffect } from 'react'
 import babyData from '../api/categoriespage/baby.json'
+import List from '../components/List'
 
 
 
@@ -19,7 +20,9 @@ const Baby = () => {
   
     return (
       <>
+    
        <div className="watercontainer">
+        
        <div className='data'>
       {baby.length && baby.map(baby => (
         <div className='cartDetail'>
@@ -35,6 +38,7 @@ const Baby = () => {
       
     </div>
     </div>
+    
       </>
     
     )

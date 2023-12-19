@@ -12,3 +12,13 @@ export default function MainLayout () {
         </>
     )
 }
+
+export function CategoryLayout () {
+    return (
+        <>
+        <Header/>
+        <Outlet/>
+        <Footer/>
+        </>
+    )
+}

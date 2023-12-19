@@ -2,15 +2,8 @@ import React from 'react'
 import '../css/Page.css'
 import { useState, useEffect } from 'react'
 import fruitsData from '../api/categoriespage/fruits.json'
-import Page from '../components/Page'
-
-
-
-
 
 const Fruits = () => {
-  
- 
   const [fruits, Setfruits] = useState([]);
     useEffect(() => {
     //data isteği 
@@ -20,7 +13,7 @@ const Fruits = () => {
   
     return (
       <>
-<Page/>
+
 
        <div className="watercontainer">
        <div className='data'>

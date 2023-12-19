@@ -15,8 +15,9 @@
 }
 
 .downloadGetirApplication {
+    align-items: center;
     color: #5d3ebc;
-    margin-left: 100px;
+    margin-left: 140px;
     margin-right: 50px;
     margin-bottom: 16px;
     margin-top: 50px;
@@ -28,17 +29,18 @@
 .downloadGetirApplicationIcon {
     display: grid;
     row-gap: 16px;
-    margin-left: 100px;
+    margin-left: 140px;
     width: 130px;
     height: 90px;
 }
-
 .footerFirstStatemenet {
     align-items: center;
     margin-left: 100px;
     margin-bottom: 25px;
 }
-
+.footerFirstStatemenet ul li {
+    list-style: none;
+}
 .statment {
     display: flex;
 }

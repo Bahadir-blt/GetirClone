@@ -10,7 +10,7 @@
 .categoriesText {
     font-weight: 600;
     font-size: 19px;
-    margin-bottom: 10px;
+  
 }
 
 .categoriesItem ul  {
@@ -19,8 +19,9 @@
 }
 
 .imageHref {
+    display: flex;
     cursor: pointer;
-    display: inline-flex;
+
     flex-direction: column;
     -webkit-box-align: center;
     align-items: center;
@@ -32,7 +33,7 @@
     transition: 0.2s ease 0s;
     overflow: visible;
     text-decoration: none;
-    gap: 10px;
+    gap: 15px;
 }
 .imageHref a {
    
@@ -42,7 +43,10 @@
 
 
 .categoriesImage {
-    width: 48px;
+    margin: 15px  -2px    ;
+  
+  
+    width: 49px;
     height: 48px;
     border-radius: 8px;
     border: 1px solid rgba(25, 25, 25, 0.1);
@@ -106,9 +110,10 @@
     }
 }
 
-@media screen and (max-width:500px) {
-    .categoriesItem {
+@media screen and (max-width:425px) {
+    .res .imageHref .categoriesImage{
         display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
        gap: 15px;
        text-align: center;
        align-items: center;

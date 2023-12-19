@@ -1,0 +1,37 @@
+.acontainer{
+    background-color: #ffffff ;
+    box-shadow: 0 1px 2px 0  rgb(255, 255, 255);
+    margin: 36px 16px;
+}
+
+.about{
+    color: blueviolet   ;
+    margin:5px 150px;
+    display: flex;
+    gap: 15px;
+}
+.explanation{
+    display: flex;
+    margin: 10px 200px;
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #697488;
+    margin-bottom: 5px;
+    white-space: pre-line;
+}
+
+.explanationtwo{
+    display: flex;
+    gap: 15px;
+}
+.colorfulText{
+    color: #5D3ABC;
+}
+.career{
+    background-color: #5D3ABC;
+}
+.ourStory{
+    color: yellow;
+}
