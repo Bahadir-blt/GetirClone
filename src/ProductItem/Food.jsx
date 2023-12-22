@@ -4,9 +4,6 @@ import { useState, useEffect } from 'react'
 import foodData from '../api/categoriespage/Food.json'
 
 
-
-
-
 const Food = () => {
   
  

@@ -1,0 +1,88 @@
+.loginContainer{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(120deg, #110982, #ae31d0);
+    height: 100vh;
+    overflow: hidden;
+  }
+
+.registerButton{
+    position: static;
+    display: block;
+    background-color: #5c3cbb;
+    color: #ffd300;
+    cursor: pointer;
+    margin: 50px 630px;
+    width: 250px;
+    height: 50px;
+}
+
+.registerButton:hover {
+    opacity: 0.75;
+    transition: 0.5ms;
+}
+.registerForm {
+    margin-top: 150px;
+}
+.registerForm p input {
+    display: flex;
+    align-items: center;
+    margin: 5px 750px;
+    width: 250px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    width: 29vw;
+    background: white;
+    border-radius: 10px;
+
+}
+.loginContainer h1 {
+    text-decoration-color: black     ;
+    color: #ffd300;
+   list-style:none;
+    margin: 50px 600px;
+}
+.loginContainer span {
+   
+    color: #ffd300;
+   list-style:none;
+}
+.loginContainer span:hover{
+   color: black;
+   opacity: 0.75;
+   transition: 0.10ms;
+}
+.notRegister{
+    margin: 5px 590px;
+}
+.contunie{
+    list-style: none;
+    text-decoration: none;
+}
+.click{
+    color: #ffd300;
+  text-decoration: none;
+}
+.signOuts{
+    color: rgb(219, 219, 255);
+    background-color: #5c3cbb;
+    border:none;
+   margin-top: 20px ;
+   padding-right: 55px;
+   cursor: pointer;
+}
+.headUser{
+    font-size: 25px;
+    color: #ffd300;
+    margin-top: 20px ;
+    margin-right: 10px;
+}
+.welcome{
+    color: rgb(219, 219, 255);
+    margin-top: 15px ;
+    margin-right: 10px;
+    font-size:25px;
+}

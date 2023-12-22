@@ -30,8 +30,21 @@
     color: #5D3ABC;
 }
 .career{
-    background-color: #5D3ABC;
-}
-.ourStory{
-    color: yellow;
+    width:100% ;
+    height: 685px;
+    background-color: #5538AB;
+   & p {
+    color:#FFD300;
+    align-items: center;
+    padding: 55px 650px ;
+    font-size: large;
+    font-weight: 900;
+    letter-spacing: 2;
+}}
+.careerdesc{
+    color: #FBF9F8;
+    font-family:18px sans-serif ;
+    align-items: center;
+    width: 500px;
+   margin-left: 500px;
 }

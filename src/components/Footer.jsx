@@ -32,8 +32,7 @@ const Footer = () => {
                   <li ><Link to="/Hakkımızda"> <a href="#"><p2 className="statment">Hakkımızda</p2><br /></ a></Link></li>
                   <li><Link to="/İletişim"> <a href="#"><p2 className="statment">İletişim</p2><br /></a></Link></li>
                   <li><Link to="/Teknoloji Kariyerleri"> <a href="#"><p2 className="statment">Teknoloji Kariyerleri</p2><br />  </a></Link></li>
-
-                  <a href="#"><p2 className="statment">Sosyal Sorumluluk Projeleri</p2></a>
+                  <li><Link to="/Sosyal Sorumluluk Projeleri"><a href="#"><p2 className="statment">Sosyal Sorumluluk Projeleri</p2></a></Link></li>
                 </ul>
               </nav>
             </section>

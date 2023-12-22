@@ -6,6 +6,7 @@
     height: 45px;
 }
 .Header .getirWrite{
+    text-decoration: none;
     margin: 10px 100px;
     color: #ffd300;
     list-style: none;

@@ -103,7 +103,7 @@
         "id": 15,
         "price": 123.50,
         "title": " Coca-Cola "  ,
-        "image": "src/image/Page Image/WaterPage/Icecek/Coca-Cola12350-6x250ml.jpg",
+        "image": "/src/image/Page Image/WaterPage/Icecek/Coca-Cola12350-6x250ml.jpg",
         "description": "6 X 250 ML "
       },
       {
