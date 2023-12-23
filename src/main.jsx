@@ -27,6 +27,11 @@ import Health from './ProductItem/Health.jsx'
 import Responsibility from './foot/Responsibility.jsx'
 import LoginRegister from './components/Login.jsx'
 import { createClient } from '@supabase/supabase-js'
+import Questions from './foot/Questions.jsx'
+import Conservation from './foot/Conservation.jsx'
+import Privacypolicy from './foot/Privacypolicy.jsx'
+import CookiePolicy from './foot/Cookiepolicy.jsx'
+import Notfound from './components/Notfound.jsx'
 export const supabase = createClient('https://vyylaomwkgdihavezcsw.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ5eWxhb213a2dkaWhhdmV6Y3N3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDMxNzg3NTMsImV4cCI6MjAxODc1NDc1M30.V7xqe7wshf0UImKgExIFpctlLEpmGMK-LfAxrxj6OYc')
 
 const router = createBrowserRouter (
@@ -110,6 +115,10 @@ const router = createBrowserRouter (
           ] 
         },
         {
+          path : '/*',
+          element : <Notfound  />,
+        },
+        {
           path : '/login',
           element : <LoginRegister  />,
         },
@@ -133,10 +142,23 @@ const router = createBrowserRouter (
         {
           path : '/Sosyal Sorumluluk Projeleri',
           element : <Responsibility/>,
+        },
+        {
+          path : '/Sıkça-Sorulan-Sorular',
+          element : <Questions />,
+        },
+        {
+          path : '/Kişisel-Verilerin-Korunması',
+          element : <Conservation />,
+        },
+        {
+          path : '/Gizlilik-Politikası',
+          element : <Privacypolicy/>,
+        },
+        {
+          path : '/Çerez-Politikası',
+          element : <CookiePolicy/>,
         }
-       
-       
-       
       ]
     }
   ]
