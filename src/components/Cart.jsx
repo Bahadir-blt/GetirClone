@@ -1,30 +1,26 @@
-import React from 'react'
-import '../css/Cart.css'
-import { useState, useEffect } from 'react'
-import cartData  from '../api/cart.json'
+import React, { useState, useEffect } from 'react';
+import '../css/Cart.css';
+import cartData from '../api/cart.json';
 
+const Cart = () => {
+  const [cart, setCart] = useState([]);
 
- const Cart = () => {
-
-   const [cart, Setcart] = useState([]);
-    useEffect(() => {
-    //data isteği 
-   Setcart(cartData);
-    },[])
-
+  useEffect(() => {
+    // Data request
+    setCart(cartData);
+  }, []);
 
   return (
     <div className='cart'>
-      {cart.length && cart.map(cart => (
-        <div className='cartDetail'>
-          <img className='dataImage' src= {cart.image} />
-          <h3 className='dataTitle'>{cart.title}</h3>
-          <p className='dataDescription'> {cart.description} </p>
+      {cart.length && cart.map((cartItem) => (
+        <div className='cartDetail' key={cartItem.id}>
+          <img className='dataImage' src={cartItem.image} alt={cartItem.title} />
+          <h3 className='dataTitle'>{cartItem.title}</h3>
+          <p className='dataDescription'>{cartItem.description}</p>
         </div>
       ))}
     </div>
-  )
-}
+  );
+};
 
-
-export default Cart ;
+export default Cart;

@@ -1,71 +1,126 @@
-/* Kategoriler Barinin Baslangici */
 .pageContainer {
     display: flex;
+    background-color: #fafafa;
 }
-
 .PageCategories {
-
     font-weight: 600;
     font-size: 20px;
     margin-left: 50px;
     margin-top: 35px;
 }
-
-.leftBar ul li a {
-
-    font-size: 18px;
-    margin-left: 30px;
-    text-decoration: none;
-    color: #000;
-}
-
-.leftBar ul li a:hover {
-    color: #5c3cbb;
-    transition: all 0.1s;
-}
-
 .leftBar ul {
-    display: inline-block;
+    font-family: sans-serif;
+    border-radius: 15px 0px 0px 15px;
     width: 250px;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #fff;
     line-height: 55px;
-    margin: 37px 50px;
-    list-style: none;
+    margin: 37px 40px;
+    padding-bottom: -15px;
+    border: 1px solid rgb(192, 192, 192);
 }
-
-.leftBar ul li img {
+.Listul li{
+    margin-bottom: -13px;
+    display: flex;
+}
+.Listul   img {
+    display:inline;
+    padding-bottom: 5px;
+    border-radius: 5px;
     margin-left: -30px;
     margin-top: 8px;
-    position: absolute;
+    max-width: 60px;
     width: 48px;
-    height: 40px;
+    height: 48px;
+    margin-bottom: 15px;
     border: 1px solid rgba(25, 25, 25, 0.1);
 }
-
+.Listul{
+    overflow-y: auto;
+    width: 600px;
+    height: 550px;
+}
+.Listul .p{
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 15px;
+    align-items: center;
+    margin-top: 5px;
+    color: black;
+}
+.Listul .p:hover{
+    color: #5c3cbb;
+    transition: all 0.5ms;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #fff;
+    border-left: 2px solid #ffffff;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 0px 5px 5px 12px;
+    background-color:  #5c3cbb;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #2E3944;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #fff;
+    border-left: 2px solid #ffffff;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 0px 0px 15px 12px;
+    background-color:  #5c3cbb;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #2E3944;
+}
 /*  Kategoriler Barinin Bitisi */
-
+.watercontainer{
+    width: 100%;
+    box-shadow: none;
+    position: relative;
+}
 .pageItems ul li {
     margin-left: 50px;
     margin-top: 35px;
     list-style: none;
 }
-
-
 .data {
+    overflow-y: scroll;
+    height: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    margin-top: 90px;
-    margin-left: -52px;
-    width: 700px;
+   
+    margin-top: 95px;
+    margin-left: -75px;
+    width: 800px;
+   height: 700px;
 }
 
+.data::-webkit-scrollbar {
+   display: none;
+}
+.data::-webkit-scrollbar-thumb {
+    border-radius: 0px 0px 15px 12px;
+    background-color:  #5c3cbb;
+}
+.data::-webkit-scrollbar-thumb:hover {
+    background-color: #2E3944;
+}
+.cartDetail{
+    width: 200px;
+    height: 2,0px;
+    box-shadow: none;
+    border: 1px solid  #f1eded;
+    background-color: #fff;
+    border-radius: 0;
+}
 .data .pageImage {
-    width: 80px;
+    margin-right: 25px;
+    width: 100px;
     object-fit: cover;
 }
-
 .pageTitle {
     text-align: center;
     font-size: 14px;
@@ -80,15 +135,12 @@
 }
 
 .pageButton {
-    margin-left: 80px;
-    font-size: 30px;
+    margin-left: 110px;
+    font-size: 20px;
     color: #5c3cbb;
-    position: absolute;
-    margin-top: -30px;
-
+    background-color: #fafafa;
     cursor: pointer;
-    border-radius: 20%;
-    border: 1px solid #838181;
+    border-radius:20px 20px 20px 20px;
 }
 .responsibilityImage{
     width: 100%;
@@ -167,4 +219,12 @@
  color: #ffd300;
  text-decoration: none;
   }
+}
+
+
+@media screen and (max-width:428px) {
+    .leftBar ul  {
+      text-align: center;
+      
+    } 
 }

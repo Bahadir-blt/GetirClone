@@ -1,40 +1,67 @@
-import React from 'react'
-import '../css/Page.css'
-import { useState, useEffect } from 'react'
-import foodData from '../api/categoriespage/Food.json'
+import React, { useState, useEffect } from 'react';
+import foodData from '../api/categoriespage/Food.json';
+import "../css/Basket.css"
 
+const Basket = ({ cart, clearCart }) => {
+  const totalAmount = cart.reduce((total, item) => total + (item.price || 0), 0);
+
+  return (
+    <div className="foodBasketContainer">
+      <h3 className='basket'>Sepetim</h3>
+      <ul className='basket-list'>
+        {cart.map(item => (
+          <li key={item.id} className='basket-item'>
+            <span className='itemName'>{item.title}</span>
+            <span className='itemPrice'>{item.price} TL</span>
+          </li>
+        ))}
+      </ul>
+      <hr className='basket-divider' />
+      <p className='basketTotal'>Toplam Tutar: {totalAmount} TL</p>
+      <button className='basketClear' onClick={clearCart}>Sepeti Boşalt</button>
+    </div>
+  );
+};
 
 const Food = () => {
-  
- 
-  const [food, Setfood] = useState([]);
-    useEffect(() => {
-    //data isteği 
-    Setfood(foodData);
-    },[])
- 
-  
-    return (
-      <>
-       <div className="watercontainer">
-       <div className='data'>
-      {food.length && food.map(food => (
-        <div className='cartDetail'>
-          <button className='pageButton'>+</button>
-         <img className='pageImage' src= {food.image} alt="" />
-          <h3 className='dataTitle'>{food.price} TL </h3>
-          <h3 className='pageTitle'>{food.title}</h3>
-          <h3 className='pageDesc'> {food.description} </h3>
-          
-        </div>
-        
-      ))}
-      
-    </div>
-    </div>
-      </>
-    
-    )
-}
+  const [food, setFood] = useState([]);
+  const [cart, setCart] = useState([]);
 
-export default Food ;
+  useEffect(() => {
+    // data isteği 
+    setFood(foodData);
+    
+  }, []);
+
+  const addToCart = (product) => {
+    setCart([...cart, product]);
+  };
+
+  const clearCart = () => {
+    setCart([]);
+  };
+
+  return (
+    <>
+      <div className="watercontainer">
+        <div className='data'>
+          {food.length && food.map(product => (
+            <div className='cartDetail' key={product.id}>
+              <button className='pageButton' onClick={() => addToCart(product)}>+</button>
+              <img className='pageImage' src={product.image} alt="" />
+              <h3 className='dataTitle'>{product.price} TL </h3>
+              <h3 className='pageTitle'>{product.title}</h3>
+              <h3 className='pageDesc'> {product.description} </h3>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="cart">
+        <Basket cart={cart} clearCart={clearCart} />
+      </div>
+    </>
+  );
+};
+
+export default Food;

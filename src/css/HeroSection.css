@@ -105,58 +105,21 @@
     transition: 0.3s;
 }
 
-@media screen and (max-width:1380px) {
-     .fastTime {
+@media screen and (max-width:500px) {
+    .fastTime{
         display: none;
     }
-
-    .leftText img {
+     .leftText{
         display: none;
     }
+    .Slider{
+        width: 420px;
+    }
+    .login .Signup .SignupToLogin{
+        display: none;
+    }
+    .continueWithPhoneNumber{
+        display: none;
+    } 
+}
  
-}
-
-@media screen and (max-width:500px)  {
-
-    .heroImage {
-        height: 280px;
-        margin-bottom: 800px;
-    }
-
-    .fastTime {
-        display: none;
-    }
-
-    .leftText img {
-        display: none;
-    }
-
-    .login {
-        margin-right: 1px;
-        margin-left: 280px;
-        margin-top: 300px;
-        width: 450px;
-        height: 280;
-        background-color: #fff;
-        box-shadow: 0 10px 11px 0 rgb(168, 168, 168);
-    }
-}
-
-
-/* @media screen and (max-width:500px) {
-    .Slider  .heroImage {
-        display: none;
-    }
-    .leftText img{
-        display: none;
-    }
-    .login{
-     margin-right: 1px;
-     margin-left: 280px;
-     margin-bottom: 250px;
-     width: 450px;
-     height:280;
-     background-color: #fff;
-     box-shadow: 0 10px 11px 0  rgb(168, 168, 168);
-    }
-} */

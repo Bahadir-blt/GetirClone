@@ -6,7 +6,7 @@ const Categories = () => {
 
   return (
     <>
-      <div className='categories'>
+    <div className="categoriesContainer">
         <div className='categoriesHeader'>
           <h3 className='categoriesText'>Kategoriler</h3>
           <div className='categoriesItem'>
@@ -30,7 +30,7 @@ const Categories = () => {
             </ul>
           </div>
         </div>
-      </div>
+        </div>
     </>
   );
 };

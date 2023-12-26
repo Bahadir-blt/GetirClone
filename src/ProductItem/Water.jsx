@@ -1,7 +1,6 @@
-import React from 'react'
-import '../css/Page.css'
-import { useState, useEffect } from 'react'
-import waterData from '../api/categoriespage/water.json'
+import React, { useState, useEffect } from 'react';
+import waterData from '../api/categoriespage/water.json';
+import "../css/Basket.css"
 import { useLoaderData } from 'react-router-dom'
 
 export function loader({ params }) {
@@ -9,38 +8,69 @@ export function loader({ params }) {
     params.kategori
   )
 }
+const Basket = ({ cart, clearCart }) => {
+  const totalAmount = cart.reduce((total, item) => total + (item.price || 0), 0);
+
+  return (
+    <div className="basketContainer">
+      <h3 className='basket'>Sepetim</h3>
+      <ul className='basket-list'>
+        {cart.map(item => (
+          <li key={item.id} className='basket-item'>
+            <span className='itemName'>{item.title}</span>
+            <span className='itemPrice'>{item.price} TL</span>
+          </li>
+        ))}
+      </ul>
+      <hr className='basket-divider' />
+      <p className='basketTotal'>Toplam Tutar: {totalAmount} TL</p>
+      <button className='basketClear' onClick={clearCart}>Sepeti Boşalt</button>
+    </div>
+  );
+};
 
 const Water = () => {
+
   const kategori = useLoaderData()
   console.log(kategori);
+  const [water, setWater] = useState([]);
+  const [cart, setCart] = useState([]);
 
-  const [water, Setwater] = useState(waterData);
   useEffect(() => {
+    // data isteği 
+    setWater(waterData);
+    
+  }, []);
 
-  }, [])
+  const addToCart = (product) => {
+    setCart([...cart, product]);
+  };
 
+  const clearCart = () => {
+    setCart([]);
+  };
 
   return (
     <>
       <div className="watercontainer">
         <div className='data'>
-          {water.length && water.map(water => (
-            <div className='cartDetail'>
-              <button className='pageButton'>+</button>
-              <img className='pageImage' src={water.image} alt="" />
-              <h3 className='dataTitle'>{water.price} TL </h3>
-              <h3 className='pageTitle'>{water.title}</h3>
-              <h3 className='pageDesc'> {water.description} </h3>
-
+          {water.length && water.map(product => (
+            <div className='cartDetail' key={product.id}>
+              <button className='pageButton' onClick={() => addToCart(product)}>+</button>
+              <img className='pageImage' src={product.image} alt="" />
+              <h3 className='dataTitle'>{product.price} TL </h3>
+              <h3 className='pageTitle'>{product.title}</h3>
+              <h3 className='pageDesc'> {product.description} </h3>
             </div>
-
           ))}
-
         </div>
       </div>
-    </>
 
-  )
-}
+      <div className="cart">
+        <Basket cart={cart} clearCart={clearCart} />
+      </div>
+    </>
+  );
+};
 
 export default Water;

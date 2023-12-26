@@ -1,38 +1,176 @@
-.basket{
-    border: 2px solid #ffd300;
-    border-radius: 8px;
-    background-color: rgb(255, 255, 255);
-    padding: 8px 24px 24px;
-    font-size: 14px;
-    color: rgb(25, 25, 25);
-    width: 20%;
-    height: 500px;
-    margin-left: 50px;
-    margin-top: 100px;
-   
+.basketContainer {
+    margin-bottom: -25px;
+    position: relative;
+    margin-left: 640px;
+    margin-top: 37px;
+   bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 260px;
+    border-radius: 0px 20px 20px 0px;
 }
- .myBasket {
-    margin-top: 70px;
-    margin-left: -300px;
-
+.fbasketContainer{
+    position: relative;
+    margin-left: 640px;
+    margin-top: 37px;
+    bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 260px;
+    border-radius: 0px 20px 20px 0px;
 }
-.prdctName{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between  ;
+.owenBasketContainer{
+    position: relative;
+    margin-left: 640px;
+    margin-top: 37px;
+    bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 260px;
+    border-radius: 0px 20px 20px 0px;
 }
-.point{
-    margin: 16px;
+.nutritionbasketContainer{
+    position: relative;
+    margin-left: 650px;
+    margin-top: 37px;
+    bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 250px;
+    border-radius: 0px 20px 20px 0px;
 }
-.deleteBasket{
-    background-color:#ffd300 ;
-    margin-top: 320px;
-    border-radius: 6px;
-    align-items: center;
-    width: 100%;
-    height: 50px;
+.snackBasketContainer{
+    position: relative;
+    margin-left: 650px;
+    margin-top: 37px;
+    bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 250px;
+    border-radius: 0px 20px 20px 0px;
 }
-.deleteBasket:hover{
-    background-color: #f6ca05;
-    transition:  0.7ms ;
+.ıcecreamBasketContainer{
+    position: relative;
+    margin-left: 650px;
+    margin-top: 37px;
+    bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 250px;
+    border-radius: 0px 20px 20px 0px;
+}
+.foodBasketContainer{
+    position: relative;
+    margin-left: 650px;
+    margin-top: 37px;
+    bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 250px;
+    border-radius: 0px 20px 20px 0px;
+}
+.milkBasketContainer{
+    position: relative;
+    margin-left: 650px;
+    margin-top: 37px;
+   bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 250px;
+    border-radius: 0px 20px 20px 0px;
+}
+.formBasketContainer{
+    position: relative;
+    margin-left: 650px;
+    margin-top: 37px;
+    bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 250px;
+    border-radius: 0px 20px 20px 0px;
+}
+.personalBasketContainer{
+    position: relative;
+    margin-left: 650px;
+    margin-top: 37px;
+   bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 250px;
+    border-radius: 0px 20px 20px 0px;
+}
+.careBasketContainer{
+    position: relative;
+    margin-left: 650px;
+    margin-top: 37px;
+    bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 250px;
+    border-radius: 0px 20px 20px 0px;
+}
+.lifeBasketContainer{
+    position: relative;
+    margin-left: 650px;
+    margin-top: 37px;
+    bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 250px;
+    border-radius: 0px 20px 20px 0px;
+}
+.technologyBasketContainer{
+    position: relative;
+    margin-left: 650px;
+    margin-top: 37px;
+    bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 250px;
+    border-radius: 0px 20px 20px 0px;
+}
+.petBasketContainer{
+    position: relative;
+    margin-left: 650px;
+    margin-top: 37px;
+    bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 250px;
+    border-radius: 0px 20px 20px 0px;
+}
+.babyBasketContainer{
+    position: relative;
+    margin-left: 650px;
+    margin-top: 37px;
+  bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 250px;
+    border-radius: 0px 20px 20px 0px;
+}
+.healthBasketContainer{
+    position: relative;
+    margin-left: 650px;
+    margin-top: 37px;
+    bottom: 780px;
+    border: 3px solid #ffd300;
+    width: 250px;
+    border-radius: 0px 20px 20px 0px;
+}
+.basket {
+    position: relative;
+    color: #000;
+    text-align: center;
+    padding: 12px 5px;
+    font-weight: 900;
+}
+.basketTotal {
+    text-align: center;
+    margin-top: 170px;
+}
+.basketClear {
+    display: block;
+    margin: 30px 30px;
+    background-color: #ffd300;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+}
+.itemName {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: -75px;
+}
+.itemPrice {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 80px;
 }
