@@ -57,7 +57,7 @@ const Footer = () => {
               </nav>
             </section>
             <div className="lowerFooter">
-              <p className='copyright'> <hr /> &copy; 2023  <span> ~ Bahadır Bulut
+              <p className='copyright'> &copy; 2023  <span> ~ Bahadır Bulut
                 <br />
                 <Link to="/*"> **   Bilgi Toplumu Hizmetleri İçin Tıklayınız  🥰 </Link>   </span></p>
               <nav className='footerIcon'>
