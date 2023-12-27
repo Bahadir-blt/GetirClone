@@ -91,11 +91,10 @@
     height: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-   
     margin-top: 95px;
     margin-left: -75px;
     width: 800px;
-   height: 700px;
+    height: 700px;
 }
 
 .data::-webkit-scrollbar {
@@ -110,16 +109,17 @@
 }
 .cartDetail{
     width: 200px;
-    height: 2,0px;
+   
     box-shadow: none;
     border: 1px solid  #f1eded;
     background-color: #fff;
     border-radius: 0;
 }
 .data .pageImage {
-    margin-right: 25px;
-    width: 100px;
-    object-fit: cover;
+    display: inline;
+    margin-right: 5px;
+    width: 100%;
+   
 }
 .pageTitle {
     text-align: center;
@@ -131,12 +131,13 @@
     color: gray;
     font-size: 15px;
     text-align: center;
-
+ margin-bottom: 15px
 }
 
 .pageButton {
-    margin-left: 110px;
-    font-size: 20px;
+    margin-top: 7px;
+    margin-left: 160px;
+    font-size: 15px;
     color: #5c3cbb;
     background-color: #fafafa;
     cursor: pointer;

@@ -13,7 +13,7 @@ const Cart = () => {
   return (
     <div className='cart'>
       {cart.length && cart.map((cartItem) => (
-        <div className='cartDetail' key={cartItem.id}>
+        <div className='elaboration' key={cartItem.id}>
           <img className='dataImage' src={cartItem.image} alt={cartItem.title} />
           <h3 className='dataTitle'>{cartItem.title}</h3>
           <p className='dataDescription'>{cartItem.description}</p>
